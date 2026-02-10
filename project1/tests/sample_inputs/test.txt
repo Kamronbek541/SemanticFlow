@@ -1,0 +1,3159 @@
+2
+Subject-specific Examination Regulations for Data Engineering
+The subject-specific examination regulations for Data Engineering are defined by this program handbook and are valid only in
+combination with the General Examination Regulations for Master degree programs (“General Master Policies”).
+This handbook also contains the program-specific Study and Examination Plan in chapter 2.2
+Upon graduation students in this program will receive a Master of Science (MSc) degree with a scope of 120 ECTS credit points (for
+specifics see chapter 2 of this handbook).
+Valid for all students starting their studies in Fall 2025
+Study Program Chair: Prof. Dr. Stefan Kettemann
+Professor for Complex Systems
+skettemann@constructor.university
+or visit our program website
+https://constructor.university/programs/graduate-education/data-engineering
+For more information on Student Services please visit:
+https://constructor.university/student-life/student-services
+https://constructor.university/programs/graduate-education/data-engineering
+Version Valid as of Decision Details
+Fall 2025 Sep 01, 2025 Dec 11, 2024. Restructuring for Reaccreditation, Additional Core
+Modules. Elective and Method Area Fused into Core Area
+Fall 2023 – V1 Sep 01, 2023 Aug 30, 2023 Change of Year 3 Module “Data Visualization and Image
+Processing” to “Image Processing for Data Engineers”
+Aug 03, 2023 Editorial change of all study schemes
+Aug 28, 2019 Originally approved by the Academic Senate
+3
+Contents
+1 Program Overview...................................................................................................... 5
+1.1 Qualification Aims ................................................................................................................... 6
+Educational Aims ....................................................................................................................... 6
+Intended Learning Outcomes .................................................................................................... 6
+1.2 Target Audience ....................................................................................................................... 7
+1.3 Career Options and Support .................................................................................................... 7
+1.4 Admission Requirements ......................................................................................................... 8
+2 The Curriculum ......................................................................................................... 10
+2.1 The Curriculum at a Glance ................................................................................................... 10
+2.2 Study and Examination Plan .................................................................................................. 11
+2.3 Core Area (45CP) ................................................................................................................... 14
+2.4 Elective Area (25 CP) .............................................................................................................. 14
+2.5 Discovery Area (15 CP) .......................................................................................................... 15
+2.6 Career Area (10 CP) ............................................................................................................... 16
+2.7 Master Thesis (30 CP) ............................................................................................................ 16
+3 Data Engineering Graduate Program Regulations ...................................................... 17
+3.1 Scope of These Regulations ................................................................................................... 17
+3.2 Degree ................................................................................................................................... 17
+3.3 Graduation Requirements ..................................................................................................... 17
+4 Modules ................................................................................................................... 18
+Data Management and Databases .......................................................................................... 18
+Data Analytics .......................................................................................................................... 20
+Python Programming for Data Engineers ................................................................................ 22
+Cloud Computing ..................................................................................................................... 24
+Data Pipeline Engineering ........................................................................................................ 27
+IT Law ....................................................................................................................................... 30
+Data Security and Privacy ........................................................................................................ 32
+Data Warehousing: Concepts and Technologies ..................................................................... 34
+Image Processing for Data Engineers ...................................................................................... 36
+Big Data Challenge ................................................................................................................... 39
+Machine Learning .................................................................................................................... 41
+Data Acquisition Technologies and Sensor Networks ............................................................. 43
+Principles of Statistical Modeling ............................................................................................ 45
+Network Theory ....................................................................................................................... 47
+Advanced Databases................................................................................................................ 49
+4
+Geoinformatics ........................................................................................................................ 50
+Modeling and Analysis of Complex Systems ........................................................................... 53
+Management and Analysis of Biological and Medical Data .................................................... 55
+Data Mining ............................................................................................................................. 57
+Data Analytics in Supply Chain Management .......................................................................... 59
+Modeling and Control of Dynamical Systems .......................................................................... 60
+Text Analysis and Natural Language Processing ...................................................................... 63
+Deep Learning .......................................................................................................................... 65
+Probabilities for Graduate Students ........................................................................................ 67
+Calculus and Linear Algebra for Graduate Students ................................................................ 69
+Current Topics in Data Engineering ......................................................................................... 71
+Advanced Project 1 .................................................................................................................. 73
+Advanced Project 2 .................................................................................................................. 75
+Internship DE ........................................................................................................................... 77
+Master Thesis DE ..................................................................................................................... 79
+Communication & Presentation Skills for Executives .............................................................. 81
+Academic Writing Skills/Intercultural Training ........................................................................ 83
+Ethics and the Information Revolution .................................................................................... 85
+Language Skills ......................................................................................................................... 87
+5 Modules ................................................................................................................... 88
+5.1 Intended Learning Outcomes Assessment-Matrix ................................................................ 88
+5
+1 Program Overview
+Today we are “drowning in data and starving for information”, while acknowledging that “data is the new
+gold”. However, deriving value from all the data now available requires a transformation in data analysis, in
+how we see, maintain, share and understand data. Data Engineering is an emerging profession concerned
+with the task of acquiring large collections of data and extracting insights from them. It is driving the next
+generation of technological innovation and scientific discovery, which is expected to be strongly data-driven.
+The graduate program in Data Engineering offers a fascinating and profound insight into the methods and
+technologies of this rapidly growing area. The program combines the big data aspects of “Data Analytics” as
+well as of “Data Science” with the technological challenges of data acquisition, curation, and management.
+Thus, the program provides the essentials for paving the way to a successful career: computer skills and
+mathematical understanding paired with practical experience in selected application fields. Thereby the
+program aims to educate a new generation of data specialists: Experts for data acquisition, management,
+analysis and security.
+Even though the Data Engineering program is embedded in the School of Computer Science and Engineering,
+its interdisciplinary nature is taken into account by including courses from the School of Science and the
+School of Business, Social & Decision Sciences and Advanced Projects in research groups in all schools on
+campus are an integral part of this study program.
+The Data Engineering program attracts students with diverse career goals, backgrounds, and prior work
+experience. Therefore, the program offers a wide range of elective modules from which the students can
+choose to specialize further, ranging from modules in Computer Science, Geo-Informatics, Bio-Informatics to
+Business & Supply Chain Engineering. These elective modules furthermore prepare the students for the
+Advanced Projects within the Discovery Area and the Master Thesis.
+The graduate program in Data Engineering is tailored to a diverse student body (see also Section 1.2) with a
+wide variety of interests, academic backgrounds, and previous experiences. Small group sizes, a low student-
+to-teacher ratio, and personalized supervision/advising allow the program to cater a student who has just
+graduated with a Bachelors’ degree, as well as a person who already has been employed in a data-intensive
+company and who wants to keep up with current data engineering practices.
+6
+1.1 Qualification Aims
+Educational Aims
+The program aims to provide an in-depth understanding of modern data engineering, and the skills required
+to apply and implement powerful data engineering and data science methods in a successful and responsible
+manner. Apart from the necessary programming skills, this comprises:
+- methods of data acquisition and data cleaning
+- data management methods
+- data pipeline and data warehousing methods to efficiently store and process data in large and distributed
+databases;
+- cloud computing methods, usage of cloud infrastructure;
+- data mining methods, signal and image processing and machine learning techniques;
+- data visualization;
+- statistical literacy and competence in sensitivity analysis and robustness;
+- legal foundations of Data Engineering;
+- scientific qualification;
+- competence to take up qualified employment in Data Engineering;
+- competence for responsible involvement in society;
+- personal growth.
+Intended Learning Outcomes
+Upon completion of this program, students will be able to
+1. Creatively apply and critically assess innovations driven by big data;
+2. Design and use databases to efficiently and securely manage and access large amounts of data;
+3. Apply statistical concepts and use statistical models in the context of real-life data analytics;
+4. Use, adapt and improve visualization techniques to support data-based decision-making;
+5. Understand cloud computing concepts, use major cloud platforms and implement cloud solutions;
+6. Understand data pipeline concepts, and build and manage data pipelines;
+7. Understand the concepts of data warehousing and apply its tools, such as online analytical processing
+(OLAP), data cubes, data marts and data lakes
+8. Design, implement and exploit various representations of data for classification and regression including
+supervised machine learning methods and core ideas of deep learning;
+9. Apply and critically assess data acquisition methods and analytical techniques in real life situations,
+organizations and industries;
+10- Independently investigate complex problems and undertake scientific or applied research into a specialist
+area utilizing appropriate methods, also taking methods and insights of other disciplines into account;
+7
+11. Professionally communicate their conclusions and recommendations, the underlying information and
+their reasons to both specialists and non-specialists, clearly and unambiguously on the basis of the state of
+research and application;
+12. Assess and communicate social, scientific and ethical insights and consequences of data engineering
+13. Engage ethically with the academic, professional and wider communities and actively contribute to a
+sustainable future;
+14. Take responsibility for their own learning, personal development, and role in society, evaluating critical
+feedback and self-analysis;
+15. Take on lead responsibility in a diverse team;
+16. Adhere to and defend ethical, scientific and professional standards.
+1.2 Target Audience
+The Data Engineering graduate program is targeted towards students who have completed their BSc in areas
+such as computer science, information technology, physics, applied mathematics, statistics, electrical
+engineering, communications engineering or related disciplines, and who want to deepen their knowledge
+and proceed to research-oriented work towards a master or ultimately a PhD degree. Typical examples are:
+• a student with a bachelor in computer science who wants to acquire skills in data engineering;
+• a student with a bachelor in mathematics or physics who wants to capitalize on his/her theoretical
+knowledge of modeling methods by learning about the hands-on side of data acquisition and
+analysis, interesting fields for applications, and options for employment;
+• a student with a bachelor in geology who wants to become a data engineer and needs to deepen
+his/her mathematical and statistical skills;
+• a student with a bachelor's or master's degree in one of the natural sciences who wishes to boost
+his/her career in empirical research or industrial research and development, where professional
+handling of very large-scale data collections has become a prime bottleneck for success;
+• a student with an undergraduate degree in the life sciences wishing to expand their skill sets towards
+data engineering and computational methods in order to apply it to biomedical data.
+To facilitate the integration of students with diverse backgrounds, we offer remedial courses in
+mathematics in the first semester. Placement tests in the orientation week before the first semester starts,
+help students identify contents they need to refresh or remedy.
+1.3 Career Options and Support
+The demand for Data Engineers is massive. Typical fields of work encompass the finance sector, the energy
+industry, the automotive, aviation and health industry as well as retail and telecommunications. Companies
+and institutions in almost every domain need:
+• experts for data acquisition who know how to find, clean and collect the data needed;
+8
+• experts for data management who know how to store, enhance, protect and process large amounts
+of data efficiently;
+• experts for data analysis who evaluate and interpret the collected data correctly and can visualize
+the findings clearly;
+Graduates of the program work as data engineers, as data analysts, data managers, data architects, business
+consultants, software and web developers, or system administrators. An MSc degree in Data Engineering
+moreover prepares students to move on to a PhD and a career in academia and research institutions.
+The employability of MSc Data Engineering graduates is promoted by organizing contacts with industry and
+research institutes throughout the curriculum. In the first semester, in the Current Topics in Data Engineering
+seminar, companies and research groups introduce current trends and tools in data engineering and data
+science and outline current challenges. The students can choose to do advanced projects, in the second and
+third semesters in research groups on campus or external research institutes, or to do internships in
+companies. In the second and third semester, participation in public big data challenges is organized as an
+integral part of the curriculum.
+The Career Service Center (CSC) helps students in their career development. It provides students with high-
+quality training and coaching in CV creation, cover letter formulation, interview preparation, effective
+presentations, business etiquette, and employer research as well as in many other aspects, thus helping
+students identify and follow up on rewarding careers after graduating from Constructor University. For
+further information, please contact the Career Service Center (CSC) (https://constructor.university/student-
+life/career-services). Furthermore, the Alumni Office helps students establish a long-lasting and worldwide
+network which provides support when exploring job options in academia, industry, and elsewhere.
+1.4 Admission Requirements
+The Data Engineering graduate program requires students to have completed their undergraduate program
+in computer science, physics, applied mathematics, statistics, electrical engineering, communications
+engineering or related disciplines.
+Admission to Constructor University is selective and based on a candidate’s university achievements, and
+self-presentation. Students admitted to Constructor University demonstrate exceptional academic
+achievements, intellectual creativity, and the desire and motivation to make a difference in the world.
+The following documents need to be submitted with the application:
+Letter of motivation
+Curriculum vitae (CV)
+Official or certified copies of university transcripts
+Bachelor’s degree certificate or equivalent
+Language proficiency test results (minimum score of 90 (TOEFL), 6.5 (IELTS) or 110 (Duolingo)).
+Copy of Passport
+Letter of recommendation (optional).
+Formal admission requirements are subject to higher education law and are outlined in the Admission and
+Enrollment Policy of Constructor University.
+9
+For more detailed information about the admission visit:
+https://constructor.university/admission-aid/application-information-graduate
+10
+2 The Curriculum
+2.1 The Curriculum at a Glance
+The Data Engineering graduate program is composed of foundational lectures, specialized modules, seminars and applied project work, leading to a master thesis that can be conducted in
+research groups at Constructor University, at external research institutes or building on an internship a company. The program takes four semesters (two years). The following table shows an
+overview of the modular structure of the program. The program is sectioned into four areas (Core, Elective, Career and Discovery) and the Master Thesis. All credit points (CP) are ECTS (European
+Credit Transfer System) credit points. In order to graduate, students need to obtain 120 CP. See Chapter 3 “Modules” of this handbook for the detailed module descriptions or refer to CampusNet.
+Figure 1: Schematic Study Scheme
+11
+2.2 Study and Examination Plan
+MSc Degree in Data Engineering
+Matriculation Fall 2025
+Module Code Program-Specific Modules Type Assessment Period1 Status2 Semester CP
+Semester 1 30
+CORE Area 15
+MDE-CO-07 Module: Data Management and Databases m 1 5
+MDE-CO-07-A Data Management and Databases Lecture Written examination Examination period 2.5
+MDE-CO-07-B Data Management and Databases- Tutorial Tutorial Program Code During semester 2.5
+MDE-CO-02 Module: Data Analytics m 1 5
+MDE-CO-02 Data Analytics Lecture Project report During semester
+MDE-CO-08 Module: Python Programming for Data Engineers m 1 5
+MDE-CO-08-A Python Programming for Data Engineers Lecture Written examination Examination period 2.5
+MDE-CO-08-B Python Programming for Data Engineers-Tutorial Tutorial Program Code During semester 2.5
+Elective Area me 5
+- students choose one module from those listed below
+Discovery Area 5
+MDE-DIS-01 m 1
+MDE-DIS-01 Current Topics in Data Engineering Colloquium Poster Presentation During semester
+Career Area 5
+MDE-CAR-01 Module: Communication and Presentation Skills for Executives m 1 2.5
+MDE-CAR-01 Communication and Presentation Skills for Executives Seminar Presentation During semester
+CTLA- Module: Language m 1 2.5
+CTLA- German Seminar Various Various m
+Semester 2 30
+CORE Area 12.5
+MDE-CO-09 Module: Data Pipeline Engineering m 2 5
+MDE-CO-09-A Data Pipeline Engineering Lecture Written examination Examination period 2.5
+MDE-CO-09-B Data Pipeline Engineering-Tutorial Tutorial Program Code During semester 2.5
+MDE- CO-10 Module: Cloud Computing m 2 5
+MDE-CO-10-A Cloud Computing Lecture Written examination Examination period 2.5
+MDE-CO-10-B Cloud Computing-Tutorial Tutorial Program Code During semester 2.5
+MDE-CO-03 Module: Data Security and Privacy m 3 2.5
+MDE-CO-03 Data Security and Privacy Lecture Written examination Examination period
+Elective Area me 10
+- Students choose modules from those listed below.
+Discovery Area 5
+- Students choose either Advanced project 1 and 2 or Internship
+MDE-DIS-02 Module: Advanced Project 1 me 2 5
+MDE-DIS-02 Advanced Project 1 Project work Project report During semester
+MDE-INT-01 Module: Internship DE me 10(3
+MDE-INT-01 Internship DE Project/
+Internship Project report During semester 2 and 3
+Career Area 2.5
+MDE-CAR-02 Module: Academic Writing Skills/Intercultural Training m 2 2.5
+MDE-CAR-02 Academic Writing Skills/Intercultural Training Seminar Term Paper During semester
+Module: Current Topics in Data Engineering
+12
+Semester 3 30
+CORE Area 12.5
+MDE-CO-11 Module: Data Warehousing: Concepts and Technologies m 3 5
+MDE-CO-11-A Data Warehousing: Concepts and Technologies Lecture Written examination Examination period
+MDE-CO-05 Module: Image Processing for Data Engineers m 3 5
+MDE-CO-05 Image Processing for Data Engineers Lecture Written examination Examination period
+MDSSB-LAW Module:IT Law m 2 2.5
+MDSSB-LAW-01 IT Law Lecture Term paper During semester
+Elective Area me 10
+- Students choose 2 modules from those listed below.
+Discovery Area 5
+- Students choose either Advanced project 1 and 2 or Internship
+MDE-DIS-03 Module: Acvanced Project 2 me 3 5
+MDE-DIS-03 Advanced Project 2 Project work Project report During semester
+Career Area 2.5
+MDSSB-EIR-01 Module: Ethics and the Information Revolution m 3 2.5
+MDSSB-EIR-01 Ethics and the Information Revolution Seminar Term paper During semester
+Semester 4 30
+Master Thesis 30
+MDE-THE-01 Module: Master Thesis MSc DE m 4 30
+MDE-THE-01 Master Thesis Thesis during the semester
+Oral Examination during the semester
+Total CP 120
+2 m = mandatory, me = mandatory elective
+3 10 CP are distributed over two semester, 5CP in 2nd and 5CP in 3rd semester
+1 Each lecture period lasts 14 semester weeks and is followed by reading and examination days. Written examinations are centrally scheduled during weeks 15 and 16. For all other assessment types, the timeframes indicated
+13
+Figure 2: Study and Examination Plan
+Elective Area
+Students choose 20 CP of manadatory electives
+MDE-CS-03 Module: Principles of Statistical Modeling me 2 5
+MDE-CS-03 Principles of Statistical Modeling Lecture Project Report During semester
+MDE-CS-01 Module: Network Theory me 1 or 3 5
+MDE-CS-01 Network Theory Lecture Written examination Examination period
+MDE-CS-04 Module: Advanced Databases me 2 5
+MDE-CS-04-A Advanced Databases Lecture Written examination Examination period 2.5
+MDE-CS-04-B Advanced Databases Lab Lab Laboratory Report During semester 2.5
+MDE-CO-01 Module: Big Data Challenge me 1 5
+MDE-CO-01 Big Data Challenge Lecture Project report During semester
+MDE-CO-04 Module: Machine Learning me 2 5
+MDE-CO-04 Machine Learning Lecture Project Report During semester
+MDE-CO-06 Module: Data Acquisition Technologies and Sensor Networks me 3 5
+MDE-CO-06 Data Acquisition Technologies and Sensor Networks Lecture & Lab Project report During semester
+MDE-MET-04 Module: Modeling and Control of Dynamical Systems me 2 5
+MDE-MET-04 Modeling and Control of Dynamical Systems Seminar Written examination Examination period
+MDE-GEO-01 Module: Geoinformatics me 1 or 3 5
+MDE-GEO-01-A Geo-Information Systems Lecture me 2.5
+MDE-GEO-01-B Introduction to Earth System Data Lecture me 2.5
+MDE-BIO-01 Module: Modeling and Analysis of Complex Systems me 1 or 3 5
+MDE-BIO-01 Modeling and Analysis of Complex Systems Lecture Written examination Examination period
+MDE-BIO-03 Module: Management and Analysis of Biological and Medical Data me 1 or 3 5
+MDE-BIO-03 Management and Analysis of Biological and Medical Data Seminar Oral examination Examination period
+MDE-BSC-01 Module: Data Mining me 2 5
+MDE-BSC-01 Data Mining Lecture Project report During semester
+MSCM-CO-07 Module: Data Analytics in Supply Chain Management me 3 5
+MSCM-CO-07 Data Analytics in Supply Chain Management Lecture Project report During semester
+MDSSB-MET-02 Module: Text Analysis and Natural Language Processing me 2 5
+MDSSB-MET-02 Text Analysis and Natural Language Processing Seminar/Lab Project report During semester
+MCSSE-AI-01 Module: Deep Learning me 1 or 3 5
+MCSSE-AI-01 Deep Learning Lecture Written examination Examination period
+Total CP 70
+Remedial Modules
+10
+MDE-MET-01 Module: Calculus and Linear Algebra for Graduate Students me 1 5
+MDE-MET-01 Calculus and Linear Algebra for Graduate Students Lecture Written examination Examination period
+MDE-MET-02 Module: Probabilities for Graduate Students me 1 5
+MDE-MET-02 Probabilities for Graduate Students Lecture Written examination Examination period
+Total CP 10
+Term paper During semester
+14
+2.3 Core Area (45CP)
+This area is the centerpiece of the Data Engineering program. The nine mandatory modules in the Core
+Area cover essential methods of data engineering. They provide the foundations for further, more
+advanced courses and applied projects by introducing the fundamental concepts, methods and
+technologies used in data engineering. The modules are intensive courses accompanied by hands-on
+tutorials and labs.
+To pursue a DE master, the following Core modules (40 CP) need to be taken as mandatory modules
+(m):
+• CORE Module: Data Management and Databases (m, 5 CP)
+• CORE Module: Data Analytics (m, 5 CP)
+• CORE Module: Python Programming for Data Engineering (m, 5 CP)
+• CORE Module: Cloud Computing (m, 5 CP)
+• CORE Module: Data Pipeline Engineering (m, 5 CP)
+• CORE Module: Data Security and Privacy (m, 2.5 CP)
+• CORE Module: IT Law (m, 2.5 CP)
+• CORE Module: Data Warehousing: Concepts and Technologies (m, 5 CP)
+• CORE Module: Image Processing for Data Engineers (m, 5 CP)
+2.4 Elective Area (25 CP)
+The Data Engineering program attracts students with diverse career goals, backgrounds, and prior
+work experience. Therefore, modules in this area can be chosen freely by students depending on their
+prior knowledge and interests. Students can choose to strengthen their knowledge in elective modules
+in the area of Computer Science, Geo-Informatics, Bio-Informatics, Business & Supply Chain
+Engineering and Mathematics. These modules can also serve as preparation for the Advanced Projects
+or the Internship within the Discovery Area and for the Master Thesis.
+The following mandatory elective (me) modules can be chosen in the Elective Area:
+• Big Data Challenge (me, 5 CP)
+• Machine Learning (me, 5 CP)
+• Data Acquisition Technologies and Sensor Networks (me, 5 CP)
+• Principles of Statistical Modeling (me, 5 CP)
+• Advanced Databases (me, 5 CP)
+• Network Theory (me, 5 CP)
+• Geo Informatics (me, 5 CP)
+• Modeling and Analysis of Complex Systems (me, 5 CP)
+• Management and Analysis of Biological and Medical Data (me, 5 CP)
+15
+• Data Mining (me, 5 CP)
+• Data Analytics in Supply Chain Management (me, 5 CP)
+• Modeling and Control of Dynamical Systems (me, 5 CP)
+In addition to these elective modules, up to one relevant module from other graduate programs and
+up to one 3rd year modules from the undergraduate curriculum at Constructor University can be taken
+after consultation with the academic advisor and with the approval of the program coordinator. Please
+see CampusNet for current offerings.
+Particularly relevant elective modules from other graduate programs include
+• Text Analysis and Natural Language Processing (DSSB, me 5CP)
+• Deep Learning (CSSE, me 5CP)
+Constructor University offers special remedial modules, which are recommended to refresh knowledge
+or to fill knowledge gaps, preparing students to successfully take the Data Engineering Core Area
+modules. Based on a placement test in the orientation week, the academic advisor will propose which
+of the modules are useful depending on prior knowledge of the student.
+The following remedial modules can be chosen in the Elective area:
+• Calculus and Linear Algebra for Graduate Students (me, 5 CP)
+• Probabilities for Graduate Students (me, 5 CP)
+2.5 Discovery Area (15 CP)
+This area features in the first semester a Seminar introducing the students to Current Topics and
+Challenges in Data Engineering. Lectures are taught by faculty members and invited experts from
+companies, presenting selected fields of their research activities and interest in data engineering.
+This seminar is preparing students for the two advanced projects in Data Engineering in semesters 2
+and 3, each of which is worth 5 CP. The projects can be done in the research groups at Constructor
+University. The advanced projects are supervised by Constructor University faculty in their research
+groups but can also be done at external research institutes.
+A 6-week full-occupation internship (or an equivalent part-time arrangement) with 10CP can replace
+the two advanced projects of 5CP each. This gives students the opportunity to train, foster, and apply
+their acquired skills in data engineering in a professional setting. Students engage with the corporate
+world, learn how to cope and excel in a new environment, and can prepare an application-oriented
+master thesis, which may facilitate their entry to the job market. The internship content must be
+relevant to data engineering. Task specifications need to be appropriate for a master’s level student.
+The module coordinator and the Career Service Center will support students in finding suitable
+positions. The module coordinator also decides on the professional eligibility of the internship. The
+student needs to submit an internship work program and find a faculty member at Constructor
+University to be the academic supervisor prior to starting the internship.
+The following module is mandatory (m) in the Discovery area:
+• Discovery Module: Current Topics in Data Engineering (m, 5 CP)
+16
+The following modules are mandatory elective (me) in the Discovery area:
+• Discovery Module: Data Engineering Advanced Project I (me, 5 CP)
+• Discovery Module: Data Engineering Advanced Project II (me, 5 CP)
+• Discovery Module: Data Engineering Advanced Internship (me, 5 CP)
+2.6 Career Area (10 CP)
+In this area students acquire skills to prepare them for a career as data engineers in industry.
+The following modules are mandatory (m) for the career area:
+• Career Module: Language (m, 2.5 CP)
+• Career Module: Communication & Presentation Skills for Executives (m, 2.5 CP)
+• Career Module: Academic Writing Skills / Intercultural Training (m, 2.5 CP)
+• Career Module: Ethics and the Information Revolution (m, 2.5 CP)
+2.7 Master Thesis (30 CP)
+In the fourth semester, students conduct research and write a mandatory master thesis guided and
+supported by their academic supervisor, worth of 30 credit points.
+Thesis Module: Master Thesis (m, 30 CP)
+17
+3 Data Engineering Graduate Program Regulations
+3.1 Scope of These Regulations
+The regulations in this handbook are valid for all students who enter the Data Engineering graduate
+program at Constructor University in Fall 2025. In case of conflict between the regulations in this
+handbook and the general Policies for Master Studies, the latter apply (see
+https://constructor.university/student-life/student-services/university-policies/academic-policies
+In exceptional cases, certain necessary deviations from the regulations of this study handbook might
+occur during the course of study (e.g., change of the semester sequence, assessment type, or the
+teaching mode of courses).
+In general, Constructor University Bremen reserves therefore the right to change or modify the
+regulations of the program handbook also after its publication at any time and in its sole discretion.
+3.2 Degree
+Upon successful completion of the program, students are awarded a Master of Science (M.Sc.) degree
+in Data Engineering.
+3.3 Graduation Requirements
+In order to graduate, students need to obtain 120 CP and fulfill the requirements outlined in chapter
+2 of this handbook.
+18
+4 Modules
+Data Management and Databases
+Module Name Data Management and Databases
+Module Code 2025-MDE-CO-07
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s)
+Forms of Learning and Teaching
+Lecture 17.5
+Tutorial 17.5
+Independent Study 70
+Exam Preparation 20
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Management and Databases MDE-CO-07-A Lecture 2.5
+Data Management and Databases -
+Tutorial
+MDE-CO-07-B Tutorial 2.5
+Module Description
+This module provides a comprehensive introduction to data management and database systems,
+focusing on the design, implementation, and optimization of modern databases. It covers both
+relational and non-relational databases, emphasizing their roles in handling large-scale and complex
+data. The aim is to equip students with the skills to address sophisticated data management challenges
+and to prepare them for the more advanced data engineering modules.
+Students will learn the principles of database design, SQL querying, and data management techniques.
+The module also covers NoSQL databases, providing a comparison with traditional SQL databases.
+Content:
+- Database design and architecture
+- Performance tuning and optimization strategies
+- Complex querying techniques and advanced SQL features
+- Exploration of NoSQL databases and their applications
+- Data storage solutions for big data environments
+19
+- Considerations for data security, governance, and compliance
+Recommended Knowledge
+Read the syllabus
+Intended Learning Outcomes
+No Competence ILO
+1 Design Design and optimize complex database systems tailored to specific
+requirements.
+2 Apply Apply advanced querying techniques and utilize sophisticated database
+features.
+3 Evaluate Evaluate and implement various database technologies, including NoSQL
+solutions.
+4 Address Address challenges related to performance, scalability, and data
+management.
+5 Understand Understand the importance of data governance, security, and compliance
+in database systems.
+Indicative Literature
+• Silberschatz, Korth, and Sudarshan, "Database System Concepts," McGraw-Hill.
+• Elmasri and Navathe, "Fundamentals of Database Systems," Pearson
+• Kristina Chodorow and Michael Dirolf, "MongoDB: The Definitive Guide," O'Reilly Media.
+• Ben Forta, "SQL in 10 Minutes, Sams Teach Yourself," Sams Publishing
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Management and
+Databases
+Written
+Examination
+120 min 50 45% All
+Data Management and
+Databases - Tutorial
+Program Code 50 45% All
+Module Achievements: None
+20
+Data Analytics
+Module Name Data Analytics
+Module Code 2025-MDE-CO-02
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+Mandatory Elective status for:
+- 2025-AST-MSc 1
+- 2025-DSSB-MSc 1
+- 2025-CSSE-MSc 1
+- 2025-DSSB-MSc 3
+- 2025-MDDA-BSc 1
+- 2025-MBA-120-MA 1
+- 2025-MBA-60-MA 1
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Adalbert F.X. Wilhelm
+Forms of Learning and Teaching
+Independent Study 90
+Lecture 17.5
+Tutorial 17.5
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Analytics MDE-CO-02 Lecture 5
+Module Description
+This module introduces concepts and methods of data analytics. The objective of the module is to
+present methods for gaining insight from data and drawing conclusions for analytical reasoning and
+decision-making. The module comprises a broad spectrum of methods for modelling and
+understanding complex datasets. Comprising both descriptive and predictive analytics, the standard
+portfolio of supervised and unsupervised learning techniques is introduced. Automatic analysis
+components, such as data transformation, aggregation, classification, clustering, and outlier detection,
+will be treated as an integral part of the analytics process.
+As a central part of this module, students are introduced to the major concepts of statistical learning
+such as cross-validation, feature selection, and model evaluation. The course takes an applied
+approach and combines the theoretical foundation of data analytics with a practical exposure to the
+data analysis process.
+Recommended Knowledge
+- Read the Syllabus.
+- Take the free online course: Introduction to Data Science at https://cognitiveclass.ai/courses/data-
+science-101/
+21
+Usability and Relationship to other Modules
+In this module students will learn concepts and various techniques for data analysis. They will be
+rigorously applied in MDE-CS-03 as well as in the applied projects MDE-DIS-02 and MDE-DIS-03, and
+typically also in the master thesis.
+Intended Learning Outcomes
+No Competence ILO
+1 Explain Explain advanced data analytics techniques in theory and application.
+2 Apply Apply data analytics methods to real-life problems using appropriate tools.
+3 Evaluate Evaluate and compare different data analytics algorithms and approaches.
+4 Apply Apply statistical concepts to evaluate data analytics results.
+Indicative Literature
+• G. James, D.Witten, T. Hastie, Rob Tibshirani: Introduction to Statistical Learning with R by
+Springer, 2013 (ISLR).
+• A. Telea, Data Visualization: Principles and Practice, Wellesley, Mass.: AK Peters, 1st edition,
+2008.(DV).
+• M. Ward, G. Grinstein, D. Keim, Interactive Data Visualization: Foundations, Techniques, and
+Applications. AK Peters, 1st edition, 2010. (IDV)
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Analytics Project Report 20 Pages 100 45% 1-4
+Module Achievements: None
+22
+Python Programming for Data Engineers
+Module Name Python Programming for Data Engineers
+Module Code 2025-MDE-CO-08
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s)
+Forms of Learning and Teaching
+Class Attendance 17.5
+Tutorial 17.5
+Independent Study 70
+Exam Preparation 20
+Workload Hours 125 hours
+Module Components Number Type CP
+Python Programming for Data Engineers MDE-CO-08-A Lecture 2.5
+Python Programming for Data Engineers -
+Tutorial
+MDE-CO-08-B Tutorial 2.5
+Module Description
+This module is designed to deepen students' proficiency in Python programming, focusing on concepts
+and techniques relevant to data engineering. It provides an introduction to core data engineering
+principles, preparing students for more specialized topics in the field. The course emphasizes practical
+applications and problem-solving skills, enabling students to develop efficient and scalable solutions
+to data-related challenges.
+Data structures and fundamental algorithms are taught in a hands-on fashion. These will include
+numerical and data analysis tasks based on NumPy/SciPy. It will include practical applications in data
+manipulation, analysis, and visualization, with the Python library Pandas. Additionally, key concepts in
+data engineering, such as data pipelines and data processing, will be introduced to provide context
+and prepare students for subsequent modules.
+Recommended Knowledge
+Basic Python programming- refresh your basic Python skills.
+Intended Learning Outcomes
+No Competence ILO
+1 Write Write Python programs using fundamental programming constructs.
+2 Utilize Utilize Python libraries such as Pandas for data manipulation and
+visualization.
+3 Handle Handle files and data formats (CSV, JSON).
+23
+4 Understand Understand the role and responsibilities of a data engineer.
+5 Describe Describe the components and basic functions of data pipelines.
+Indicative Literature
+• Mark Lutz, "Learning Python," O'Reilly Media.
+• Jake VanderPlas, "Python Data Science Handbook," O'Reilly Media
+• Tom White, "Hadoop: The Definitive Guide," O'Reilly Media
+• Andreas Müller and Sarah Guido, "Introduction to Machine Learning with Python," O'Reilly
+Media
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Python Programming for
+Data Engineers
+Written
+Examination
+120 min 50 45% All
+Python Programming for
+Data Engineers - Tutorial
+Program Code 50 45% All
+Module Achievements: None
+24
+Cloud Computing
+Module Name Cloud Computing
+Module Code 2025-MDE-CO-10
+Module ECTS 5
+Study Semester Mandatory status for:
+Mandatory for DE 2
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) NN
+Forms of Learning and Teaching
+Class Attendance 17.5
+Tutorial 17.5
+Independent Study 70
+Exam Preparation 20
+Workload Hours 125 hours
+Module Components Number Type CP
+Cloud Computing MDE-CO-10-A Lecture 2.5
+Cloud Computing - Tutorial MDE-CO-10-B Tutorial 2.5
+Module Description
+This module introduces students to the foundational concepts and technologies of cloud computing. It
+covers the basics of cloud platforms, cloud services, and the essential skills needed to set up and
+manage cloud environments. The aim is to provide students with a strong understanding of cloud
+computing principles and practical experience with leading cloud platforms such as AWS, Azure, and
+Google Cloud Platform.
+Content:
+Introduction to Cloud Computing:
+- Definition and characteristics of cloud computing
+- Cloud computing service models: IaaS, PaaS, SaaS
+- Deployment models: public, private, hybrid, and multi-cloud
+- Benefits and challenges of cloud computing
+Overview of Major Cloud Platforms:
+- Introduction to Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)
+25
+- Key services offered by each platform
+Cloud Architecture Fundamentals:
+- Understanding cloud infrastructure: compute, storage, and networking
+- Virtualization and containerization
+- Scalability, elasticity, and high availability
+Setting Up Basic Cloud Environments:
+- Creating and managing virtual machines (VMs) and instances
+- Cloud storage solutions: object storage, block storage, and file storage
+- Networking in the cloud: VPCs, subnets, and security groups
+Cloud Services and Applications:
+- Introduction to cloud databases: RDS, Cosmos DB, Bigtable
+- Serverless computing: AWS Lambda, Azure Functions, Google Cloud Functions
+- Cloud security basics: IAM, encryption, compliance
+Hands-On Labs:
+- Setting up a virtual machine on AWS, Azure, and GCP
+- Configuring and using cloud storage services
+- Deploying a simple web application in the cloud
+- Implementing basic security measures
+Recommended Knowledge
+- Basic knowledge in C/C++
+- Mandatory proficiency in Python
+Intended Learning Outcomes
+No Competence ILO
+1 Explain Explain the fundamental principles and models of cloud computing
+2 Describe Describe the architecture and components of cloud infrastructure
+3 Navigate Navigate and utilize services offered by AWS, Azure, and GCP
+4 Set Set up and manage virtual machines, storage solutions, and
+networks on these platforms
+5 Deploy Deploy and manage basic cloud-based applications and services
+6 Apply Apply best practices for cloud security and compliance
+7 Perform Perform practical tasks such as setting up VMs, configuring storage,
+and deploying applications
+8 Use Use cloud platforms' interfaces and tools to manage resources
+effectively
+26
+Indicative Literature
+• Thomas Erl, "Cloud Computing: Concepts, Technology & Architecture," Prentice Hall
+• Bernard Golden, "Amazon Web Services For Dummies," For Dummies
+• Microsoft Azure Documentation: https://docs.microsoft.com/en-us/azure/
+• Google Cloud Documentation: https://cloud.google.com/docs/
+Entry Requirements
+Prerequisites Data Management and Databases
+Python Programming for Data Engineers
+Co-requisites Data Pipeline Engineering
+Additional Remarks
+Assessment and Completion
+Components Examination
+Type
+Duration
+/Length
+Weight
+(%)
+Minimum ILOs
+Cloud Computing Written
+Examination
+120 min 50 45% All
+Cloud Computing -
+Tutorial
+Program Code 50 45% All
+Module Achievements: None
+27
+Data Pipeline Engineering
+Module Name Data Pipeline Engineering
+Module Code 2025-MDE-CO-09
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 2
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s)
+Forms of Learning and Teaching
+Class Attendance 17.5
+Tutorial 17.5
+Independent Study 70
+Exam Preparation 20
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Pipeline Engineering MDE-CO-09-A Lecture 2.5
+Data Pipeline Engineering -Tutorial MDE-CO-09-B Tutorial 2.5
+Module Description
+This module offers an in-depth exploration of data pipeline engineering, focusing on the design,
+deployment, and management of data pipelines using modern tools and frameworks. Students will
+learn how to handle large-scale data processing workflows and gain practical experience with open-
+source technologies such as Apache Airflow, Terraform, and Nomad. The aim is to equip students with
+the skills and knowledge required to build and manage robust data pipelines, facilitating efficient data
+flow and processing in cloud environments.
+Content:
+Course Structure:
+1- Introduction to Data Pipelines:
+- Definition and importance of data pipelines in data engineering
+- Overview of ETL (Extract, Transform, Load) processes
+- Components and architecture of data pipelines
+2- Tools and Frameworks:
+Apache Airflow:
+- Introduction to Airflow and its components
+28
+- Setting up and configuring Airflow
+- Creating and managing DAGs (Directed Acyclic Graphs) for workflow automation
+Terraform:
+- Basics of Infrastructure as Code (IaC)
+- Writing and deploying Terraform scripts
+- Automating cloud infrastructure provisioning
+Nomad:
+- Introduction to Nomad for workload orchestration
+- Deploying and managing applications with Nomad
+- Integrating Nomad with other tools and services
+3- Data Processing Frameworks:
+- Overview of batch processing and stream processing
+- Introduction to Hadoop and Spark for large-scale data processing
+- Hands-on examples and use cases
+4- Building and Managing Data Pipelines:
+- Designing data pipeline architecture
+- Implementing ETL processes using Apache Airflow
+- Deploying data pipelines in cloud environments
+- Monitoring and troubleshooting data pipelines
+5- Advanced Topics:
+- Scalability and performance optimization of data pipelines
+- Data quality and validation in pipelines
+- Security considerations for data pipelines
+6- Hands-On Labs:
+- Setting up and configuring Apache Airflow
+- Writing and deploying Terraform scripts for cloud infrastructure
+- Building and deploying a data pipeline using Airflow and Spark
+Managing workloads with Nomad
+29
+Recommended Knowledge
+- Basic knowledge in C/C++
+- Mandatory proficiency in Python
+Intended Learning Outcomes
+No Competence ILO
+1 Explain Explain the importance and components of data pipelines in data
+engineering.
+2 Describe Describe the ETL processes and their role in data pipelines.
+3 Set Set up and configure Apache Airflow for workflow automation.
+4 Write Write and deploy Terraform scripts for infrastructure provisioning.
+5 Use Use Nomad for workload orchestration and management.
+6 Design Design and implement data pipeline architectures.
+7 Deploy Deploy and manage data pipelines using Airflow, Terraform, and cloud
+services.
+8 Monitor Monitor and optimize the performance of data pipelines.
+9 Perform Perform practical tasks such as setting up Airflow, writing Terraform
+scripts and building data pipelines.
+10 Apply Apply best practices for data quality, validation, and security in data
+pipelines.
+Indicative Literature
+• Bas P. Harenslak, Julian de Ruiter, "Data Pipelines with Apache Airflow," O'Reilly Media.
+• Yevgeniy Brikman, "Terraform: Up & Running," O'Reilly Media.
+• HashiCorp Documentation for Nomad: https://www.nomadproject.io/docs/
+Entry Requirements
+Prerequisites Data Management and Databases
+Python Programming for Data Engineers
+Co-requisites Cloud Computing
+Additional Remarks
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Pipeline Engineering Written
+Examination
+120 min 50 45% All
+Data Pipeline Engineering Program Code 50 45% All
+Module Achievements: None
+30
+IT Law
+Module Name IT Law
+Module Code 2025-MDSSB-LAW
+Module ECTS 2.5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 2
+Mandatory Elective status for:
+- 2025-DSSB-MSc 2
+Duration 1 Semester
+Program Affiliation 2025-DSSB-MSc (Data Science for Society and
+Business)
+Module Coordinator(s) Prof. Dr. Hilke Brockmann
+Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 17.5
+Independent Study 45
+Workload Hours 62.5 hours
+Module Components Number Type CP
+IT Law MDSSB-LAW-01 Lecture 2.5
+Module Description
+Digital information, the Internet, and applications like YouTube or social networking tools like
+Instagram, Facebook, or Twitter have disrupted legal systems (Murray 2016). IT law is not limited to
+one legal area but encompasses civil, public, and criminal laws. It spans from human rights law to
+intellectual property law, contract and consumer protection law, privacy law, data protection law, and
+other legal domains. Moreover, the global exchange of data is in conflict with the territorial principle
+of jurisdiction. In addition, IT regulations are in a constant flux to keep up with the accelerated pace of
+technological progress. This module looks into the most important areas of IT law. It provides the
+participants with a sound understanding of legal principles and regulations, and sheds light on
+international as well as European ICT policies and governance. A special focus will be given to the
+European General Data Protection Regulation (GDPR).
+Usability and Relationship to other Modules
+For DSSB students: It is one of the three Career modules (IT Law, Language III, and Ethics and the
+Information Revolution) that can be chosen for replacement by the internship. Students need to
+replace 10 CP for the internship.
+Recommended Knowledge
+Read the Syllabus
+Intended Learning Outcomes
+No Competence ILO
+31
+1 Identify Identify legal questions and implications in relation to digital
+transformation technologies/IT law/ AI and algorithms.
+2 Understand Understand fundamental national and international legal frameworks
+related to the use of data.
+3 Know Know the relevant IP rights regarding data and algorithms.
+4 Understand Understand and critically assess legal regulations about data privacy and
+data protection.
+5 Recognize Recognize and explain the types of bias inherent in data processing.
+6 Explain Explain the legal concerns related to data-based automatic decision
+making.
+7 Understand Understand how to comply to the GDPR and assess its impact on
+individuals, firms, and organizations.
+8 Understand Understand and critically evaluate the liabilities and available remedies
+with regard to data.
+9 Explain Explain and develop potential future IT regulation mechanisms.
+Indicative Literature
+• Lloyd (2020). Information Technology Law. Oxford: Oxford University Press (9th ed).
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+IT Law Term Paper 3,500
+words
+100 45% 1-9
+Module Achievements: None
+32
+Data Security and Privacy
+Module Name Data Security and Privacy
+Module Code 2025-MDE-CO-03
+Module ECTS 2.5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+- 2025-DE-MSc 3
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Seminar 17.5
+Independent Study 45
+Workload Hours 62.5 hours
+Module Components Number Type CP
+Data Security and Privacy MDE-CO-03 Lecture 2.5
+Module Description
+Data Security and Privacy introduces concepts of data security. Basic cryptographic mechanisms are
+introduced, and it will be explained how these mechanisms can be used to protect data during
+transmission over the Internet or while data is stored on computing systems. The module component
+will also introduce the technical aspects of data privacy and concepts such as anonymity, linkability,
+observability and pseudonymity.
+Recommended Knowledge
+Read the syllabus
+Intended Learning Outcomes
+No Competence ILO
+1 Analyze Analyze and develop principles for public key encryption.
+2 Assess Assess and choose appropriate techniques for authentication.
+3 Understand Understand the design of internet standards.
+4 Summarize Summarize and communicate the principles behind encryption using
+shared keys.
+5 Critically Critically assess and identify how security issues are solved and how this
+will impact the security of applications.
+Indicative Literature
+• D. R. Stinson, Cryptography: Theory and Practice, ISBN, 1-58488-206-9, Chapman & Hall. 4th
+edition, 2018. https://ebookcentral.proquest.com/lib/jacob/detail.action?docID=5493336.
+33
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Security and Privacy Written
+Examination
+90
+minutes
+100 45% 1-5
+Module Achievements: None
+34
+Data Warehousing: Concepts and Technologies
+Module Name Data Warehousing: Concepts and Technologies
+Module Code 2025-MDE-CO-11
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 3
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s)
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Warehousing: Concepts and
+Technologies
+MDE-CO-11 Lecture 5
+Module Description
+Enterprises at any time need to know where their business stands in order to make the right decisions.
+Obviously, manifold internal and external factors have an impact and hence have to be gathered and
+combined to achieve the best possible decision support for the managers. The software technology
+aiming at this goal, summarized as Business Intelligence (BI), performs various tasks such as
+information collection and homogenization, analytics and data mining, and visualization through
+dashboards etc.
+From an information management perspective, the central BI component is the Data Warehouse (DW),
+a subject-oriented, integrated, time-variant, non-volatile pool of data supporting management
+decision processes. The analytics carried out is subsumed as Online Analytical Processing (OLAP), the
+central structure is that of a multi-dimensional OLAP datacube.
+In this course, an introduction to Data Warehousing is given. First an introduction to the world of
+warehousing is presented, followed by a software architecture perspective. A deep dive into the
+information management aspect inspects OLAP databases and datacubes (with all implications such as
+query workloads, normal forms, query optimization, etc.), the challenges to extract, transform, and
+load (ETL) to continuously feed the warehouse, and tools for getting insight from datacubes, ranging
+from simple spreadsheets to complex data mining. The plot finalizes with a glance at current research
+issues.
+Structure
+- Motivation: Why Data Warehouses?
+- Warehouse Architectures for Merging Information Resources
+35
+- Data Warehouse Architecture
+- OLAP Databases: ROLAP, MOLAP, and More
+- Variations: Data Marts, Data Lakes, Data Ecosystems
+- Collecting Data: ETL
+- Analyzing Data: from Spreadsheets to Data Mining
+- Wrap-Up & Research Issues
+Intended Learning Outcomes
+No Competence ILO
+1 Understand Understand the data management and analytics requirements of Business
+Intelligence
+2 Explain Explain the core concepts of Data Warehousing towards management
+decision support
+3 Explain Explain the need for data cleansing when harvesting from heterogeneous
+sources, give examples for problems that may arise, and explain benefits
+and limits of ETL tool
+4 Understand Understand the concepts of OLAP and OLAP datacubes
+5 Design Design an OLAP datacube schema for some given Warehouse description,
+using a relational database (ROLAP)
+6 Formulate Formulate typical ROLAP analytics queries on a given ROLAP schema
+7 Explain Explain the different OLAP approaches of ROLAP, MOLAP, HOLAP, and
+DOLAP
+8 Correlate Correlate and differentiate Warehousing and related terminology such as
+datacubes vs. data marts vs. data lakes
+Indicative Literature
+• R. Kimball, M. Ross: The Data Warehouse Toolkit. 3rd Edition, Wiley, 2013, ISBN-10:
+1118530802
+• Barry Devlin: Cloud Data Warehousing Volume I: Architecting Data Warehouse, Lakehouse,
+Mesh, and Fabric. Technics Publications, 2023, ISBN-10: 1634623363
+Entry Requirements
+Prerequisites Data Analytics
+Data Management and Databases
+Co-requisites None
+Additional Remarks
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Warehousing: Concepts
+and Technologies
+Written
+Examination
+120 min 100 45% All
+Module Achievements: None
+36
+Image Processing for Data Engineers
+Module Name Image Processing for Data Engineers
+Module Code 2025- MDE-CO-05
+Module ECTS 5
+Study Semester Mandatory status for:
+2025-DE-MSc-3
+Mandatory Elective status for:
+2025-PHDS-MSc-3
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Markus Wenzel
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Image Processing for Data Engineers MDE-CO-05 Lecture 5
+Module Description
+Images are ubiquitous in society and science. All kinds of sensors turn physical phenomena into visual
+representations that we interpret to learn, take decisions, or just enjoy. In parallel, digital imaging
+sensors have become a commodity, resulting in massive amounts of images stored on the internet.
+They contain implicit knowledge about our world, and it is a data engineers’ task to be able to extract
+their information and generate knowledge from it.
+Appreciating this central role of image in data science and data engineering, this module introduces
+the basic concepts and applications of image processing for data engineers. This module’s aim is to
+enable students:
+- To understand the relation of physical phenomena and their image representation, including
+sensors that don’t necessarily yield human-interpretable images,
+- To acquire, store, retrieve, and work with image data in an efficient way,
+- To transform images using different methods from hand-crafted algorithms to machine
+learning and deep learning pipelines,
+- And to perform operations on them to extract useful information and knowledge.
+This course introduces sampling and quantization strategies, elementary image transformations, and
+higher-level information extraction techniques like noise reduction, image segmentation, and feature
+extraction leading up to image analysis automation.
+The module will be taught along real-world applications relevant for data engineers, such as in
+biomedical imaging, pattern recognition and classification. It will provide an overview of the broader
+37
+field of image processing. Homework assignments will cover Python implementations of basic and
+combined image processing algorithms.
+Recommended Knowledge
+- Basic linear algebra, calculus and programming skills
+- Reading the syllabus is recommended
+Intended Learning Outcomes
+No Competence ILO
+Understand Understand and describe types of imaging physics, implemented in
+common sensor technologies used to acquire images (e.g. radiation,
+emission, and transmission imaging, and examples of each)
+Explain Explain basic concepts of image processing like pixel-wise transforms,
+neighborhood transforms, and how elementary transforms can be
+composed into image analysis, on the example of morphological image
+processing
+Apply Apply sampling and quantization strategies
+Understand Understand and compare common methods for image segmentation, like
+region growing, connected components, or the watershed transform,
+Know Know algorithms for edge, corner, and interest point detection like Canny
+edges, Harris corners, others
+Compare Compare noise reduction methods by their principles, and select
+appropriate methods based on a given use case, like Gaussian blurring,
+bilateral filters, anisotropic diffusion filters
+Perform Perform feature extraction from images using methods from categories like
+shape features, intensity features, texture features, interest point
+descriptors
+Apply Apply machine learning to features derived from images
+Know Know common techniques for deep-learning-based image processing, like
+CNNs for classification and segmentation, GANs for image generation, and
+Transformers for multi-purpose image processing
+Design Design and implement their own image processing algorithms in Python
+and apply these to real world examples
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+38
+Image Processing for Data
+Engineers
+Written
+Examination
+120
+minutes
+100 45% 1-3
+Module Achievements: None
+39
+Big Data Challenge
+Module Name Big Data Challenge
+Module Code 2025-MDE-CO-01
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+- 2025-SCM-MSc 1
+Mandatory Elective status for:
+- 2025-MBA-120-MA 1
+- 2025-MBA-60-MA 1
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Adalbert F.X. Wilhelm
+Forms of Learning and Teaching
+Lecture 17.5
+Project Work 90
+Independent Study 17.5
+Workload Hours 125 hours
+Module Components Number Type CP
+Big Data Challenge MDE-CO-01 Lecture 5
+Module Description
+Big data is one of the buzz words of the current decade and refers to the collection and exploration of
+complex data sets. This complexity of big data is typically described by the four V’s: Volume, Velocity,
+Variety, and Veracity. From a business perspective, big data is often portrayed as a sea of big
+opportunities. The public debate is torn between the two poles portrayed by the writers George Orwell
+and Aldous Huxley: complete surveillance resulting in oppression on the one end, and irrelevance and
+narcissism on the other. Technological research quite naturally is mostly concerned with the technical
+feasibility of different approaches, the continuously increasing challenges with respect to the four V’s,
+and the creative solutions needed to tackle them.
+In this module students receive an overview of big data by looking at it from various perspectives,
+primarily the business and societal points of view. The focus is not on the technical methods and skills,
+but on case studies that show big data and data engineering in a cross-section.
+Recommended Knowledge
+- Researching information, assessing sources and report writing
+- Read the Syllabus
+- Read Susan Ettlinger (2015). What Do we do with all this Big Data? Altimeter.
+https://www.prophet.com/2015/01/new-research-what-do-we-do-with-all-this-big-data/
+- Watch corresponding TEDTalk
+Usability and Relationship to other Modules
+40
+- For DE: This module provides an overview on practical big data applications. The computational
+details will then be studied in MDE-CS-04.
+- For SCM: Concepts are applied in MSCM-CO-03 Trends & Challenges in Supply Chain Management.
+Project management concepts taught in MSCM-CO-01 will be applied. Academic writing skills taught
+in MSCM-CAR-01 facilitate the completion of the tasks in this module.
+Intended Learning Outcomes
+No Competence ILO
+1 Contribute Contribute knowledgeably to the current debate about big data,
+digitalization and industry 4.0.
+2 Explain Explain and discuss pros and cons of digitalization from a business
+perspective as well as a societal perspective.
+3 Perform Perform a SWOT analysis on current big data initiatives.
+4 Evaluate Evaluate technological possibilities and innovations driven by big data.
+5 Assess Assess the business opportunities of current big data developments.
+Indicative Literature
+• McLellan (2013): Big Data: An Overview https://www.zdnet.com/article/big-data-an-
+overview/
+• S. Akter & S. Fosso Wamba, Big data analytics in e-commerce: A systematic review and agenda
+for future research, 2016. Electronic Markets, 26 173-194.
+• Z. Lv, H. Song, P. Basanta-Val, A. Steed and M. Jo. "Next-Generation Big Data Analytics: State
+of the Art, Challenges, and Future Research Topics," in IEEE Transactions on Industrial
+Informatics, vol. 13, no. 4, pp. 1891-1899, Aug. 2017.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Big Data Challenge Project Report 2500
+words
+100 45% 1-5
+Module Achievements: None
+41
+Machine Learning
+Module Name Machine Learning
+Module Code 2025-MDE-CO-04
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 2
+Mandatory Elective status for:
+- 2025-DSSB-MSc 2
+- 2025-CSSE-MSc 2
+- 2025-MBA-120-MA 2
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Machine Learning MDE-CO-04 Lecture 5
+Module Description
+Machine learning (ML) is a module that concerns algorithms that are fed with (large quantities of) real-
+world data, and which return a compressed "model" of the data. An example is the "world model" of
+a robot: the input data are sensor data streams, from which the robot learns a model of its
+environment. Another example is a spoken language model: the input data are speech recordings,
+from which ML methods build a model of spoken English -- useful, for instance, in automated speech
+recognition systems. There are many formalisms in which such models can be cast, and an equally
+large diversity of learning algorithms. At the same time, there is a relatively small number of
+fundamental challenges that are common to all of these formalisms and algorithms.
+The module introduces such fundamental concepts and illustrates them with a choice of elementary
+model formalisms (linear classifiers and regressors, radial basis function networks, clustering, neural
+networks). Furthermore, the module also (re)introduces required mathematical material from
+probability theory and linear algebra. The main educational aims are twofold: to make students fully
+aware of the two main hurdles for obtaining good models from data: (i) the "curse of dimensionality"
+and (ii) the bias-variance dilemma and to provide standard tools to cope with these difficulties, namely
+(i) dimension reduction by feature extraction, for example via PCA or clustering, and (ii) cross-
+validation and regularization.
+Usability and Relationship to other Modules
+This module is a natural companion to the "Principles of Statistical Modeling" (PSM) module MDE-CS-
+03.
+The ML module focuses on practical ML skills, whereas PSM module on rigorous mathematical
+formalism and analysis.
+42
+For students not familiar with graph theory, it is recommended to take the first semester course MDE-
+CS-01 Network
+Theory, which introduces concepts used in this Machine Learning module.
+Recommended Knowledge
+- Basic linear algebra, calculus and probability theory, as typically acquired in entry modules in BSc
+studies.
+- Read the syllabus.
+- Highly recommended: Mitchell, Tom M.: Machine Learning (McGraw-Hill, 1997) IRC: Q325.5.M58
+1997. This standard, classical textbook gives a very accessible overview of ML.
+Intended Learning Outcomes
+No Competence ILO
+1 Design Design, implement and exploit elementary supervised ML methods for
+classification and regression with expert care given to dimension reduction
+preprocessing and regularization
+2 Understand Understand and practically use PCA and linear regression
+3 Understand Understand the core ideas behind feedforward neural networks and the
+backpropagation algorithm, as the basis for accessing "deep learning"
+methods
+Indicative Literature
+• T. M. Mitchel, Machine Learning, McGraw-Hill, 1997, IRC: Q325.5.M58.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Machine Learning Written
+Examination
+120
+minutes
+100 45% 1-3
+Module Achievements: None
+43
+Data Acquisition Technologies and Sensor Networks
+Module Name Data Acquisition Technologies and Sensor
+Networks
+Module Code 2025-MDE-CO-06
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 3
+- 2025-DE-MSc 4
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Dr. Fangning Hu
+Forms of Learning and Teaching
+Lecture/Laboratory 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Acquisition Technologies and Sensor
+Networks
+MDE-CO-06 Lecture and
+Laboratory
+5
+Module Description
+Medical monitoring, smart cars, smart grids, smart homes, and ubiquitous connections to the internet
+everywhere: There will be an ocean of data not only entered by humans but also automatically pouring
+in from billions of sensors deployed in a plethora of devices. How are such data collected, and how can
+they be made available to you, to your doctor, or to other users? These are only some of the questions
+to be addressed. This module offers a hands-on introduction to the technology behind the scenes.
+Topics include microcontrollers; how to program them; the way they interact with sensors and
+actuators; and the wireless techniques they use to communicate with each other, with other
+computers, and with the internet.
+As the module covers a wide range of platforms, it also utilizes aspects from a variety of different
+languages and devices. To be successful, it helps to be familiar with basic electrical circuits,
+microcontrollers, HTML, PHP, SQL, C, and Python. Although there will be a lot of support, it is
+recommended to be familiar with at least a few of these aspects.
+Recommended Knowledge
+- The students should be familiar with at least some of the following topics: basic electrical circuits,
+microcontrollers, HTML, PHP, SQL, C, and Python.
+- Read the syllabus.
+- A lab manual will be provided, reading the lab manual before each lab session is recommended.
+Usability and Relationship to other Modules
+44
+This module offers the techniques of wireless acquisition of the data that will later be processed and
+analyzed by techniques studied in the Data Analytics module MDE-CO-02, the Machine Learning
+module MDE-CO-04, and the Data Analytics in Supply Chain Management module MSCM-CO-07.
+Intended Learning Outcomes
+No Competence ILO
+1 Acquire Acquire data from different sensors and use a microcontroller to process
+them.
+2 Transmit Transmit data from the microcontroller to a database on a server.
+3 Collect Collect data from web browsers and transmit them to a database on a
+server.
+4 Visualize Visualize the data on computers or smart devices.
+5 Set Set up a wireless sensor network and communicate data among different
+components.
+Indicative Literature
+• M. Kooijman, Building wireless sensor networks using Arduino: leverage the powerful Arduino
+and XBee platforms to monitor and control your surroundings, Packt Publishing, 2015
+ISBN:9781784397159 1784397156.
+• H. E Williams, D. Lane, Web database applications with PHP and MySQL, O'Reilly Media, 2004,
+ISBN: 0596005431 9780596005436.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Acquisition
+Technologies and Sensor
+Networks
+Project Report 20 pages 100 45% 1-5
+Module Achievements: None
+45
+Principles of Statistical Modeling
+Module Name Principles of Statistical Modeling
+Module Code 2025-MDE-CS-03
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 2
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Principles of Statistical Modeling MDE-CS-03 Lecture 5
+Module Description
+This module introduces the basic concepts of statistical modeling. The focus is on a thorough
+understanding of fundamental concepts: the nature of probability spaces and random variables;
+distributions and their representations; design and critical assessment of real-life samples; statistical
+hypothesis testing; statistical decision-making; strategies for estimator design. This module is
+distinguished from standard probability courses for non-mathematical audiences in that the
+mathematical model of „probability” is rigorously introduced, including sigma-fields.
+The primary educational aim is to lift students to a level of mastery and understanding of the intricate
+formalism of probability and statistics that enables them to read the respective scientific literature and
+to adapt existing algorithms or even develop new algorithms. This module is thus targeted at students
+who want to go beyond a mere mechanical use of existing statistical toolboxes, and develop innovative
+data analysis techniques of their own design.
+The secondary educational aims are to enable students to (i) understand the substantial differences
+between methodological approaches and fundamental mindsets in statistics vs. machine learning and
+(ii) understand the differences between and respective advantages and disadvantages of classical
+frequentist vs. Bayesian modeling methods.
+Recommended Knowledge
+- Basic linear algebra, calculus and probability theory, as typically acquired in entry modules in BSc
+studies.
+- Read the syllabus
+Usability and Relationship to other Modules
+46
+The Machine Learning module MDE-CO-04 and the Data Analytics module MDE-CO-02 are
+complementary in that they introduce and focus on practical tools and techniques, whose theoretical
+foundations only can become fully clear in this module.
+Intended Learning Outcomes
+No Competence ILO
+1 Correctly Correctly and insightfully use the core formalism of probability theory.
+2 Understand Understand the (basic) formalism used in the scientific literature of
+machine learning and statistics.
+3 Decide Decide which type of approach is indicated to address a given modeling
+task (frequentist vs. Bayesian; black-box-modeling in machine learning
+spirit vs. statistical decision procedures; maximum-likelihood vs. Bayesian
+vs. unbiasedness criteria for procedure selection).
+4 Appreciate Appreciate the importance of being exact and circumspective in setting up
+statistical modeling procedures.
+Indicative Literature
+• H. Jäger, Principles of Statistical Modeling, online tutorial http://minds.jacobs-
+university.de/teaching/courses/t2019psm/.
+• V. Vapnik, The Nature of Statistical Learning Theory, Springer-Verlag, 1995.
+• R. J. Hyndman, G. Athanasopoulos Forecasting, Principles and Practice, , online script,
+https://otexts.com/fpp2/.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Principles of Statistical
+Modeling
+Project Report 10 pages 100 45% 1-4
+Module Achievements: None
+47
+Network Theory
+Module Name Network Theory
+Module Code 2025-MDE-CS-01
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 1
+- 2025-DE-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Network Theory MDE-CS-01 Lecture 5
+Module Description
+The theory of networks - as diverse as power grids, computer networks, social networks, and biological
+networks - has emerged in recent years as a highly dynamic and rapidly developing discipline. The
+study of networks is broadly interdisciplinary and important developments have occurred in many
+fields, including mathematics, physics, computer and information sciences, biology, and the social
+sciences. This module introduces this field, starting with a review of the diverse realizations of
+networks. We then teach how to measure the structure of networks and introduce methods for
+analyzing network data.
+We introduce graph theory, which forms the basis of network theory. Then, we review computer
+algorithms and spectral methods to analyze networks. We introduce various mathematical models of
+networks, including random graph models and generative models, and conclude with more recent
+theories that model the dynamical processes taking place on networks.
+Recommended Knowledge
+- Basic linear algebra, calculus and probability theory, as typically acquired in entry modules in BSc
+studies.
+- Read the syllabus. Refresh your Linear Algebra. Read the first two chapters of the primary book
+Networks: An Introduction by M.E.J Newman, ISBN 9780199206650 (2010)
+Usability and Relationship to other Modules
+This course prepares for the courses MDE-CO-04 Machine Learning and MDE-CS-03 Principles of
+Statistical Modeling.
+Intended Learning Outcomes
+48
+No Competence ILO
+1 Measure Measure structure of networks.
+2 Analyze Analyze network data.
+3 Perform Perform the modeling of dynamic processes on networks.
+4 Communicate Communicate in scientific language using advanced field-specific technical
+terms.
+Indicative Literature
+• M. Newman, Networks an Introduction, Oxford Univ. Press, 2010, ISBN: 9780199206650.
+• A.-L. Barabasi, Network Science, Cambridge University Press, Cambridge, 2016, ISBN-10:
+1107076269.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Network Theory Written
+Examination
+120
+minutes
+100 45% 1-4
+Module Achievements: None
+49
+Advanced Databases
+Module Name Advanced Databases
+Module Code 2025-MDE-CS-04
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 2
+- 2025-CSSE-MSc 2
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Peter Baumann
+Forms of Learning and Teaching
+Lecture 40
+Laboratory 40
+Independent Study 45
+Workload Hours 125 hours
+Module Components Number Type CP
+Advanced Databases MDE-CS-04-A Lecture 2.5
+Advanced Databases Lab MDE-CS-04-B Laboratory 2.5
+Module Description
+This course deepens knowledge and skills in managing and serving Big Data with emphasis on flexibility
+and scalability. As a result of this course, students will know the state of the art in data management
+for particularly large and complex data, including in cloud-based data setups. Based on the Data
+Engineering Core lecture Data Management the course starts with a reinspection of classical SQL,
+preparing an overview of SQL query processing.
+Based on this understanding opportunities of optimization and parallelization are discussed.
+Subsequently, novel developments in Big Data services are discussed. NoSQL approaches with their
+new data models are inspected, such as documents, graphs and arrays. This is contrasted with NewSQL
+and their novel techniques for competitive performance. Dedicated architectures are discussed, such
+as MapReduce.
+This leads to general scalability considerations, with an emphasis on large-scale parallel and distributed
+processing. Throughout the course practical considerations play an important role, including
+practitioner hints on database modeling, tuning, and security. Practical guided hands-on exercises
+complement this.
+Usability and Relationship to other Modules
+For DE: pre-requisite Introduction to Data Management with Python.
+Recommended Knowledge
+- Mandatory knowledge of SQL
+50
+- Working knowledge of fundamental data structures, such as trees
+- Working knowledge of computer architectures
+- Good command of at least one programming language, as several languages will be used in the lab
+Intended Learning Outcomes
+No Competence ILO
+1 Summarize Summarize the state of the art in data management for particularly large
+and complex data.
+2 Establish Establish criteria for selecting adequate scalable data management
+technology based on various criteria.
+3 Establish Establish a state-of-the-art database schema for a given application
+scenario.
+4 Tune Tune a relational database for best performance on some given query
+workload.
+5 Adequately Adequately consider security aspects in databases.
+6 Develop Develop applications using Web and database technology.
+Indicative Literature
+• McLellan (2013): Big Data: An Overview https://www.zdnet.com/article/big-data-an-
+overview/.
+• S. Akter & S. Fosso Wamba, Big data analytics in e-commerce: A systematic review and agenda
+for future research, 2016. Electronic Markets, 26 173-194.
+• Z. Lv, H. Song, P. Basanta-Val, A. Steed and M. Jo. "Next-Generation Big Data Analytics: State
+of the Art, Challenges, and Future Research Topics," in IEEE Transactions on Industrial
+Informatics, vol. 13, no. 4, pp. 1891-1899, Aug. 2017.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Advanced Databases Written
+Examination
+120
+minutes
+67 45% 1,2,3,4,5
+Advanced Databases Lab Laboratory
+Report
+33 45% 3,4,5,6
+Module Achievements: None
+Geoinformatics
+Module Name Geoinformatics
+Module Code 2025-MDE-GEO-01
+51
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DSSB-MSc 1
+- 2025-DE-MSc 1
+- 2025-DSSB-MSc 3
+- 2025-DE-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Vikram Unnithan
+Forms of Learning and Teaching
+Lecture 40
+Practical Assignments 40
+Independent Study 45
+Workload Hours 125 hours
+Module Components Number Type CP
+Geo-Information Systems MDE-GEO-01-A Lecture 2.5
+Introduction to Earth System Data MDE-GEO-01-B Lecture 2.5
+Module Description
+Machine learning (ML) is a module that concerns algorithms that are fed with (large quantities of) real-
+world data, and which return a compressed "model" of the data. An example is the "world model" of
+a robot: the input data are sensor data streams, from which the robot learns a model of its
+environment. Another example is a spoken language model: the input data are speech recordings,
+from which ML methods build a model of spoken English -- useful, for instance, in automated speech
+recognition systems. There are many formalisms in which such models can be cast, and an equally
+large diversity of learning algorithms. At the same time, there is a relatively small number of
+fundamental challenges that are common to all of these formalisms and algorithms.
+The module introduces such fundamental concepts and illustrates them with a choice of elementary
+model formalisms (linear classifiers and regressors, radial basis function networks, clustering, neural
+networks). Furthermore, the module also (re) introduces required mathematical material from
+probability theory and linear algebra. The main educational aims are twofold: to make students fully
+aware of the two main hurdles for obtaining good models from data: (i) the "curse of dimensionality"
+and (ii) the bias-variance dilemma and to provide standard tools to cope with these difficulties, namely
+(i') dimension reduction by feature extraction, for example via PCA or clustering, and (ii') cross-
+validation and regularization.
+Recommended Knowledge
+- Basic computer skills, basic working knowledge of Linux OS and Python
+- Read the Syllabus
+- Geographic Information Systems and Science, 2nd Edition (2005) Paul A. Longley, Michael F.
+Goodchild, David J. Maguire, David W. Rhind. Wiley, 560 p. ISBN 0470721448.
+52
+- Python Data Science Handbook, Jake VanderPlas, 2016 -
+https://jakevdp.github.io/PythonDataScienceHandbook/
+Usability and Relationship to other Modules
+- This module is a natural companion to the "Principles of Statistical Modeling" (PSM) module MDE-
+CS-03.
+- The ML module focuses on practical ML skills, whereas PSM module on rigorous mathematical
+formalism and analysis.
+- For students not familiar with graph theory, it is recommended to take the first semester course MDE-
+CS-01 Network Theory, which introduces concepts used in this Machine Learning module.
+Intended Learning Outcomes
+No Competence ILO
+1 Design Design, implement and exploit elementary supervised ML methods for
+classification and regression with expert care given to dimension reduction
+preprocessing and regularization.
+2 Understand Understand and practically use PCA and linear regression.
+3 Understand Understand the core ideas behind feedforward neural networks and the
+backpropagation algorithm, as the basis for accessing "deep learning"
+methods.
+Indicative Literature
+• P. A. Longley, M. F. Goodchild, D. J. Maguire, D. W. Rhind, Geographic Information Systems
+and Science, 2nd Edition, Wiley, 2005, 560 p. ISBN 0470721448.
+• Jake VanderPlas, Python Data Science Handbook, 2016,
+https://jakevdp.github.io/PythonDataScienceHandbook/.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Geo-Information Systems Term Paper 20 pages 100 45% 1-3
+Introduction to Earth System
+Data
+1-3
+Module Achievements: None
+53
+Modeling and Analysis of Complex Systems
+Module Name Modeling and Analysis of Complex Systems
+Module Code 2025-MDE-BIO-01
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DSSB-MSc 1
+- 2025-DE-MSc 1
+- 2025-DSSB-MSc 3
+- 2025-DE-MSc 3
+- 2025-DE-MSc 4
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 35
+Practical exercises, private study incl. exam
+preparation
+90
+Workload Hours 125 hours
+Module Components Number Type CP
+Modeling and Analysis of Complex
+Systems
+MDE-BIO-01 Lecture 5
+Module Description
+This is a hands-on module on the mathematical and computational modeling of various complex
+systems, covering diverse fields of the natural and social sciences. The module starts with an
+introduction to mathematical modeling. The elements of a model are presented and the steps to follow
+when constructing a model are reviewed, from formulating the question, determining the basic
+constituents of a model, and qualitatively and quantitatively describing the relevant system to
+analyzing the equations with various checks and balances. An introduction are provided on Python,
+the programming language constituting the main computational tool adopted in the module. To put
+into practice the theory on the basics of modelling and Python programming, a number of classical
+models in ecology are reviewed, coded, and numerically analyzed. This will build up the skills for
+developing models that describe different complex systems and the associated processes. In particular,
+different ial equation models are developed.
+They describe:
+(1) the dynamics of diseases such as HIV, (2) the microbial growth in batch and chemostat cultures, (3)
+the dynamics of plankton ecosystems in the oceanic mixed layer, and (4) examples of life acting as a
+regulating force at a planetary scale. In addition, the lecturer introduces Agent-Based Modelling
+techniques with applications to cultural segregation problems and spatially explicit predator-prey
+interactions.
+54
+Recommended Knowledge
+- Analysis, Basic Calculus, and Linear Algebra
+-Read the syllabus
+Intended Learning Outcomes
+No Competence ILO
+1 Design Independently design and develop models (from the basic conceptual
+aspects, to the mathematical equations and the numerical code) for
+tackling problems in the natural and social sciences.
+2 Undertake Undertake numerical equilibria and stability analysis, to evaluate model
+performance, and to identify uncertainties in model results.
+3 Undertake Undertake numerical equilibria and stability analysis, to evaluate model
+performance, and to identify uncertainties in model results.
+Indicative Literature
+• The course is based on a self-contained, detailed set of online lecture notes and practical
+exercises.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Modeling and Analysis of
+Complex Systems
+Written
+Examination
+120
+minutes
+100 45% 1-3
+Module Achievements: None
+55
+Management and Analysis of Biological and Medical Data
+Module Name Management and Analysis of Biological and
+Medical Data
+Module Code 2025-MDE-BIO-03
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 1
+- 2025-DE-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Marc-Thorsten Hütt
+Forms of Learning and Teaching
+Lectures and plenary discussions 20
+Project Work 105
+Workload Hours 125 hours
+Module Components Number Type CP
+Management and Analysis of Biological
+and Medical Data
+MDE-BIO-03 Seminar 5
+Module Description
+High-throughput technologies have turned biological and medical research into 'big data' endeavors.
+It is indispensable to be able to navigate the rich, intricate landscape of biological and medical
+databases and to contextualize and analyze information from diverse sources. Here we explore
+examples of recent databases in Biology and Medicine selected from the current database issue of the
+journal Nucleic Acids Research. Typical examples include databases for gene expression, metabolic
+systems, genome-wide association studies and epigenetic information.
+In the first sessions of the course, we define small research projects based on the selected databases.
+In the rest of the course these research projects will be pursued in small groups and the results will be
+reported and discussed.
+Intended Learning Outcomes
+No Competence ILO
+1 Identify Identify and process a variety of data formats and data standards in
+biology and medicine.
+2 Access Access and use the main bioinformatics databases.
+3 Download Download and analyze diverse biological and medical data.
+4 Derive Derive research questions from scientific publications.
+5 Apply Apply concepts from data science to biological and medical databases.
+56
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Management and Analysis of
+Biological and Medical Data
+Oral
+Examination
+100 45% 1-5
+Module Achievements: None
+57
+Data Mining
+Module Name Data Mining
+Module Code 2025-MDE-BSC-01
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DSSB-MSc 2
+- 2025-DE-MSc 2
+- 2025-DSSB-MSc 4
+- 2025-MBA-120-MA 2
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Adalbert F.X. Wilhelm
+Forms of Learning and Teaching
+Lecture 17.5
+Project Work 90
+Independent Study 17.5
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Mining MDE-BSC-01 Lecture 5
+Module Description
+The focus of this module is on practical applications of algorithms and computational paradigms that
+allow computer-based search and detection of data patterns and regularities. Students learn how to
+use such tools to perform predictions and make forecasts. Students will study data mining as the core
+component in the knowledge discovery in database process which deals with extracting useful
+information from raw data. This knowledge discovery process includes data selection, cleaning, coding,
+using different statistical and machine learning techniques, and visualization of data and generated
+patterns and structures. The module aims tot provide an overview of all these issues and illustrates
+the whole process by examples.
+A major component of the module is group-based participation in a data analysis competition. This
+competition allows students to apply the concepts learned in class and to develop the computational
+skills to analyze data in a collaborative setting.
+Recommended Knowledge
+- Knowledge of Data Analytics software/ programming languages such as R or Python.
+- Practice data analysis tasks
+- Read the Syllabus.
+Usability and Relationship to other Modules
+58
+This module builds on the core module data analytics MDE-CO-02 and prepares students for applied
+projects in data analysis as well as a master thesis in this field.
+Intended Learning Outcomes
+No Competence ILO
+1 Implement Implement and apply advanced data mining methods with appropriate
+tools.
+2 Evaluate Evaluate and compare the suitability, scalability and efficiency of different
+methods in practical settings.
+3 Have Have gained experience in performing a full cycle of data mining and data
+analysis.
+4 Have Have acquired practical skills to tackle data mining problems.
+Indicative Literature
+• G. James, D. Witten, T. Hastie, R. Tibshiran, Introduction to Statistical Learning with R by
+Springer, 2013 (ISLR).
+• J. VanderPlas, Python Data Science Handbook, 2016 -
+https://jakevdp.github.io/PythonDataScienceHandbook/.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Mining Project Report 20 pages 100 45% 1-4
+Module Achievements: None
+59
+Data Analytics in Supply Chain Management
+Module Name Data Analytics in Supply Chain Management
+Module Code 2025-MSCM-CO-07
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 3
+- 2025-SCM-MSc 3
+- 2025-MBA-120-MA 3
+Duration 1 Semester
+Program Affiliation 2025-SCM-MSc (Supply Chain Management)
+Module Coordinator(s) Prof. Dr. Hendro Wicaksono
+Forms of Learning and Teaching
+Lecture 35
+Group Discussion 45
+Independent Study 45
+Workload Hours 125 hours
+Module Components Number Type CP
+Data Analytics in Supply Chain
+Management
+MSCM-CO-07 Lecture 5
+Module Description
+In recent years, big data has become a significant topic in supply chain management, as the amount of
+data generated in supply chain management practices has grown exponentially. Data analytics are
+techniques that apply data mining, statistical analysis, predictive analytics, and machine learning to
+uncover hidden patterns, correlations, trends, and other business-valuable information and
+knowledge from data.
+The module focuses on the supply chain management scenarios that generate and consume data
+intensively and require data analytics to improve the decision-making process through descriptive,
+predictive, and prescriptive analytics. These include:
+- Descriptive statistics on and historical insight into companies’ production, financial, operations, sales,
+customers, etc.
+- Forecasting customer behavior, purchasing patterns, production performance, energy consumption,
+etc.
+- Prescriptive analytics for assessing the offer that should be made to a certain customer, to decide on
+the shipment strategy for each location, to determine the most efficient material flow in a factory, etc.
+Recommended Knowledge
+- Basics of statistical analytics and machine learning
+- Basics of database and SQL
+60
+- Basics of programming skills, such as R, Python, and Java
+- Sanders, N. Big data driven supply chain management: a framework for implementing analytics and
+turning information into intelligence, Pearson Education, 2014.
+Usability and Relationship to other Modules
+Programming methods, such as R and Python, taught in MSCM-MET-01 Programming in Python and
+MSCM-MET-03 Programming in R as well as project management concepts taught in MSCM-CO-01 will
+be applied. Academic writing skills taught in MSCM-CAR-01 facilitate the completion of tasks in this
+module.
+Intended Learning Outcomes
+No Competence ILO
+1 Identify Identify scenarios in supply chain management and evaluate the
+opportunities and challenges of data analytics applications.
+2 Determine Determine the objective of data analytics in different scenarios and the
+data sources required to achieve that objective.
+3 Apply Apply methods and tools to collect and integrate data from different
+sources in the context of supply chain management.
+4 Apply Apply machine learning and statistical analytics methods and tools to
+uncover hidden patterns, correlations, trends, and knowledge that are
+useful for improving supply chain management processes.
+5 Evaluate Evaluate data analytics results in different scenarios and solve the
+problems that might occur throughout the entire data analytics process,
+from data collection to analysis.
+6 Develop Develop deployment architecture concepts by integrating existing
+tools/software.
+7 Develop Develop business model and ecosystem concepts.
+Entry Requirements
+Prerequisites Programming in Python
+Introduction to Data Management with Python
+Co-requisites None
+Additional Remarks
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Data Analytics in Supply
+Chain Management
+Project Report 2500
+words
+100 45% 1-7
+Module Achievements: None
+Modeling and Control of Dynamical Systems
+Module Name Modeling and Control of Dynamical Systems
+Module Code 2025-MDE-MET-04
+61
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 2
+- 2025-DE-MSc 4
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) PD Dr. Mathias Bode
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Modeling and Control of Dynamical
+Systems
+MDE-MET-04 Seminar 5
+Module Description
+Predictions based on the past, with or without additional input information? This is the topic of our
+module on dynamical systems. In many cases these forecasts are (almost) exact; in others we can only
+get probabilistic information. Based on a large set of examples, the module is going to discuss these
+so-called deterministic and stochastic systems. Topics we cover include:
+- Deterministic low-dimensional dynamical systems.
+- Control of deterministic linear systems.
+- Linear prediction of stochastic time series.
+Recommended Knowledge
+- Basic linear algebra, calculus, probability concepts and programming skills as taught in introductory
+modules.
+- Read the book: "Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry,
+and Engineering" by Steven H. Strogatz, in particular parts I+II. In order to prepare, please, read
+chapters 1,2+5.
+Usability and Relationship to other Modules
+Complementary to the machine Learning module MDE-CO-04 this module focuses on a theory-based
+design of models. Such models, if available, are usually “smaller” and easier to parameterize.
+Intended Learning Outcomes
+No Competence ILO
+1 Understand Understand and apply fundamental concepts of deterministic and
+stochastic dynamical systems.
+2 Solve Solve linear ordinary differential equations with constant coefficients.
+62
+3 Understand Understand and apply fundamental concepts from linear control theory.
+4 Understand Understand and apply (conditional) means, variances, and covariances to
+predict the behavior of simple stochastic systems.
+Indicative Literature
+• S. H. Strogatz, Nonlinear Dynamics and Chaos: With Applications to Physics, Biology,
+Chemistry, and Engineering, 2nd edition, 2015.
+• S. Zak, Systems and Control, Oxford University Press, 2003.
+• H. Stark & J. Woods, Probability and Random Processes with Applications to Signal Processing,
+Westview Press, 2002.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Modeling and Control of
+Dynamical Systems
+Written
+Examination
+120
+minutes
+100 45% 1-4
+Module Achievements: None
+63
+Text Analysis and Natural Language Processing
+Module Name Text Analysis and Natural Language Processing
+Module Code 2025-MDSSB-MET-02
+Module ECTS 5
+Study Semester Mandatory status for:
+2025-DSSB-MSc 2
+Mandatory Elective status for:
+- 2025-DE-MSc 2
+- 2025-CSSE-MSc 2
+Duration 1 Semester
+Program Affiliation 2025-DSSB.MSc (Data Science for Society
+and Business)
+Module Coordinator(s) Prof. Dr. Hilke Brockmann/ Prof. Dr. Jan Lorenz /
+Prof. Dr. Adalbert F.X. Wilhelm
+Forms of Learning and Teaching
+Seminar 17.5
+Laboratory 17.5
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Text Analysis and Natural Language
+Processing
+MDSSB-MET-02 Seminar 5
+Module Description
+This module will teach the fundamentals of text mining, natural language processing, and automated
+content analysis using R. Students will learn the entire text analysis pipeline, from basic web scraping
+techniques for collecting text data from social media, over text representations and ontologies, to text
+mining algorithms and efficient representation of analysis results. Students will be exposed to
+theoretical and methodological foundations of text mining, such as word frequencies, ontologies, bag-
+of-word, as well as the application of machine learning algorithms for text and sentiment analysis. The
+module will introduce exemplary studies on text and sentiment analysis and provide an opportunity
+for hands-on programming to realize different analyses. The module covers a spectrum of text mining
+methods, from basic lexicographic measures to more complex statistical learning algorithms such as
+sentiment analysis and topic modeling.
+Recommended Knowledge
+Programming skills in R or Python at an intermediate level
+Usability and Relationship to other Modules
+64
+This module translates the insights from “Data Science Concepts” into text analysis. The module lays
+the basis for core and elective modules in semester 2 and 3, particularly for the “Digital Public
+Spheres,” “Data Science Lab,” “Data Analytics,” and “Cybercriminology” modules.
+Intended Learning Outcomes
+No Competence ILO
+1 Explain Explain the concept of “text as data”.
+2 Use Use basic methods for information extraction and text data
+retrieval.
+3 Process Process and prepare text data for statistical modeling and
+automated content analysis.
+4 Perform Perform different text analyses using text mining packages in R.
+5 Interpret Interpret diverse text analytical measures.
+6 Undertake Undertake a knowledgeable automated content analysis with text
+data.
+Indicative Literature
+• Silge, Robinson (2017) Text Mining with R: A Tidy Approach. Sebastopol, CA: O’Reilly.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration
+/Length
+Weight
+(%)
+Minimum ILOs
+Text Analysis and Natural
+Language Processing
+Project Report 3000
+words
+100 45% 1-6
+Module Achievements: None
+65
+Deep Learning
+Module Name Deep Learning
+Module Code 2025-MCSSE-AI-01
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-PHDS-BSc 1
+- 2025-PHDS-BSc 3
+- 2025-AST-MSc 1
+- 2025-DE-MSc 1
+- 2025-SDT-BSc 1
+- 2025-CSSE-MSc 1
+- 2025-SDT-BSc 3
+- 2025-CSSE-MSc 3
+- 2025-DE-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-CSSE-MSc (Computer Science & Software
+Engineering)
+Module Coordinator(s) Prof. Dr. Andreas Birk
+Forms of Learning and Teaching
+Exam Preparation 20
+Independent Study 70
+Lecture 35
+Workload Hours 125 hours
+Module Components Number Type CP
+Deep Learning MCSSE-AI-01 Lecture 5
+Module Description
+In machine learning we aim at extracting meaningful representations, patterns and regularities from
+high-dimensional data. In recent years, researchers from various disciplines have developed “deep”
+hierarchical models, i.e. models that consist of multiple layers of nonlinear processing. An important
+property of these models is that they can “learn” by reusing and combining intermediate concepts, so
+that these models can be used successfully in a variety of domains, including information retrieval,
+natural language processing, and visual object detection. After a brief introduction into core
+knowledge related to training, model evaluation and multilayer perceptrons, this module focuses on
+the exposing students to deep learning techniques including convolutional and recurrent neural
+networks, autoencoders, generative adversarial networks and reinforcement learning. The central aim
+is hence to enable students to critically assess and apply modern methods in machine learning.
+Recommended Knowledge
+- This module is recommended for students that have been exposed to core knowledge in machine
+learning / statistical learning on undergraduate level. Students without this background knowledge can
+66
+still join since required core knowledge is re-introduced. Preparation via auxiliary literature or online
+courses will facilitate the start into the course.
+- Strong knowledge and abilities in mathematics (linear algebra, calculus).
+Usability and Relationship to other Modules
+While the graduate level modules "Data Analytics" and "Machine Learning" provide an applied
+introduction to the field and are therefore recommended for students with a focus on Software
+Engineering or Cybersecurity, this module complements the undergraduate module "Machine
+Learning" or can be used independently as a strong introduction to the field of Deep Learning.
+Intended Learning Outcomes
+No Competence ILO
+1 Understand Understand core techniques to train neural networks.
+2 Select Select from modern neural network architectures the most appropriate
+method (e.g. convolutional and recurrent neural networks) based on given
+input data.
+3 Contrast Contrast different recent unsupervised learning methods including
+autoencoders and generative adversarial networks.
+4 Describe Describe techniques in reinforcement learning.
+Indicative Literature
+• Ian Goodfellow, Yoshua Bengio, Aaron Courville: Deep Learning, MIT Press, 2016.
+• Aurélien Géron: Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow, 2nd
+Edition, O’Reilly, 2019.
+• Christopher M. Bishop: Pattern Recognition and Machine Learning, Springer, 2006.
+• Charu C. Aggarwal: Neural Networks and Deep Learning – A Textbook, Springer, 2018.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Deep Learning Written
+Examination
+120
+minutes
+100 45% 1-4
+Module Achievements: None.
+67
+Probabilities for Graduate Students
+Module Name Probabilities for Graduate Students
+Module Code 2025-MDE-MET-02
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 1
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) PD Dr. Mathias Bode
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Probabilities for Graduate Students MDE-MET-02 Lecture 5
+Module Description
+This module offers a highly structured introduction to the fundamentals of combinatorics and
+probabilities as they are used for statistical modeling and estimation. It is a gateway for graduate
+students who have not been exposed to the topics so far, or who were exposed long ago and needs to
+be refreshed. The module starts with the concept of probabilities, including joint, conditional and total
+probabilities with a focus on independence, which leads us to a discussion of Bayes’s theorem. We
+shall then proceed to factorials, and binomial coefficients, with many applications to be followed by
+the binomial law, and its Poisson and Normal approximations. A second block covers random variables
+with their distributions and density functions. Here we are going to discuss continuous random
+variables in detail. Block three continues with the essential ideas of expected values, moments, and
+estimation.
+Usability and Relationship to other Modules
+Familiarity with probability-related concepts is the basis to understand the foundations of stochastic
+modelling and the data analytics and machine learning techniques which form a central part of data
+engineering. There is a placement test offered in the orientation week before the start of the first
+semester to help all students to find out if they need to take this remedial course.
+Recommended Knowledge
+Read the Syllabus.
+Intended Learning Outcomes
+No Competence ILO
+1 Understand Understand the fundamental concepts of probabilities and combinatorics
+and to apply them in structured situations.
+68
+2 Apply Apply important probability laws (Binomial, Poisson, Normal).
+3 Understand Understand and apply probability distributions and densities.
+4 Understand Understand and apply means, variances, and covariances – also in the
+context of simple estimation contexts.
+Indicative Literature
+• H. Stark, J. W. Woods, Probability and Random Processes with Applications to Signal
+Processing, Third Edition, 2002.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Probabilities for Graduate
+Students
+Written
+Examination
+120
+minutes
+100 45% 1-4
+Module Achievements: None
+69
+Calculus and Linear Algebra for Graduate Students
+Module Name Calculus and Linear Algebra for Graduate
+Students
+Module Code 2025-MDE-MET-01
+Module ECTS 5
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 1
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Igors Gorbovickis
+Forms of Learning and Teaching
+Lecture 35
+Independent Study 90
+Workload Hours 125 hours
+Module Components Number Type CP
+Calculus and Linear Algebra for Graduate
+Students
+MDE-MET-01 Lecture 5
+Module Description
+This module offers a highly structured introduction to the fundamentals of two major pillars of
+mathematical modelling and analysis: Single and multivariable calculus on the one hand and linear
+algebra on the other.
+It is a gateway for graduate students who have not been exposed to the topics so far, or who were
+exposed long ago and needs to be refreshed.
+Topics include sequences, series, limits, derivatives, Taylor series, and integrals as well as vectors,
+matrices, determinants, eigenvalues, eigenvectors, scalar products, and norms. The module focuses
+on practical experience rather than on mathematical rigor.
+Recommended Knowledge
+- Mathematics at High School level
+.
+- Read the Syllabus.
+Usability and Relationship to other Modules
+This module introduces and refreshes the essential Calculus and Linear Algebra required in most of the
+modules of the data engineering program. There is a placement test offered in the orientation week
+before the start of the first semester to help all students to find out if they need to take this remedial
+course.
+Intended Learning Outcomes
+No Competence ILO
+70
+1 Apply Apply the fundamental concepts of calculus and linear algebra in
+structured situations.
+2 Understand Understand and use vectors and matrices, calculate determinants,
+eigenvalues and eigenvectors in simple cases.
+3 Calculate Calculate derivatives and simple integrals.
+4 Explain Explain the importance of the methods of calculus and linear algebra in
+problems arising from applications.
+5 Understand Understand the methods of calculus and linear algebra used in more
+advanced modules as well as in scientific literature.
+Indicative Literature
+• G. Strang, Introduction to Linear Algebra, 5th edition, Wellesley-Cambridge Press, 2016, ISBN:
+978-09802327-7-6.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Calculus and Linear Algebra
+for Graduate Students
+Written
+Examination
+120
+minutes
+100 45% 1-5
+Module Achievements: None
+71
+Current Topics in Data Engineering
+Module Name Current Topics in Data Engineering
+Module Code 2025-MDE-DIS-01
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 1
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+17.5
+Independent Study 107.5
+Workload Hours 125 hours
+Module Components Number Type CP
+Current Topics in Data Engineering MDE-DIS-01 Colloquium 5
+Module Description
+This module introduces current topics and challenges of data engineering. Lectures are taught by
+faculty members and invited experts from companies, presenting selected fields of their research
+activities and interest in data engineering. For each field an overview of the scientific background, the
+motivation and major challenges is provided together with a list of references. This is complemented
+by an in-depth discussion of the specific research topics. Each student will then select one field of the
+faculty presentations and will prepare a term paper in the form of a master thesis proposal, which will
+be presented as a poster at the end of the module. The module will additionally feature tutorials
+providing the students with scientific skills.
+Usability and Relationship to other Modules
+This module particularly prepares for the Advanced Project modules MDE-DIS-02 and MDE-DIS-03 and
+also gives the students an orientation with respect to which methods are required to master current
+developments in data engineering.
+Recommended Knowledge
+Read the Syllabus
+Intended Learning Outcomes
+No Competence ILO
+1 Describe Describe a current topic in Data Engineering.
+2 Research Research and read scientific literature.
+3 Communicate Communicate in scientific language using field specific-technical terms.
+Indicative Literature
+72
+• The literature is provided by each instructor of the current topics lecture in the slides, which
+are provided immediately after each lecture to all students by pdf on a teamwork space
+created by the instructor of record Prof. Kettemann.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Current Topics in Data
+Engineering
+Poster
+Presentation
+120
+minutes
+100 45% 1-3
+Module Achievements: None
+73
+Advanced Project 1
+Module Name Advanced Project 1
+Module Code 2025-MDE-DIS-02
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 2
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 17.5
+Seminar 35
+Independent Study 72.5
+Workload Hours 125 hours
+Module Components Number Type CP
+Advanced Project 1 MDE-DIS-02 Lecture and Seminar 5
+Module Description
+This module aims to provide the student with an in-depth understanding and command of one of the
+data analytics or data management techniques that are represented by the research groups of the
+faculty of DE. The subdiscipline involved (e.g. database management, machine learning, statistical data
+analysis, information theory, data acquisition, or big data technologies) changes from year to year and
+from hosting group to hosting group. The detailed structure and schedule depend on the specific
+demands and options of the hosting group.
+An Advanced Project module typically begins with an introduction to the concerned technology or
+method. This leads the student to a level of competence with which he/she can insightfully apply the
+respective methods to practical, real-life tasks. Typically, the second half of the module is devoted to
+individual (or if indicated, group) projects in which a nontrivial data management/ analysis task, given
+by the instructor, is completed. The project outcome is a technical report (target size: 20 pages)
+together as well as with a presentation to the Data Engineering program students and faculty.
+Usability and Relationship to other Modules
+The students can choose a project, ideally on a topic and with a supervisor they already encountered
+during the 1st semester module MDE-DIS-01 Current Topics in Data Engineering.
+Recommended Knowledge
+Read the syllabus
+4.1.27.1 Intended Learning Outcomes
+No Competence ILO
+74
+1 Understand Understand current technical/scientific literature, and distinguish good
+from second-rate publications.
+2 Write Write / configure computer programs / tools specifically for the subject
+area.
+3 Master Master relevant data pre/ postprocessing routines specifically for the
+subject area.
+4 Design Design and schedule a complex DE project, including escape options, keep
+milestones/timelines.
+5 Consistently Consistently apply scientific language to communicate in writing his/her
+understanding clearly and precisely to a non-expert audience.
+Indicative Literature
+• The literature is provided individually to each student by each instructor of the respective
+advanced project.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Advanced Project 1 Project Report 20 pages 100 45% 1-5
+Module Achievements: None
+75
+Advanced Project 2
+Module Name Advanced Project 2
+Module Code 2025-MDE-DIS-03
+Module ECTS 5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 3
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Supervised Study, Research and Project Work 125
+Workload Hours 125 hours
+Module Components Number Type CP
+Advanced Project 2 MDE-DIS-03 Project 5
+Module Description
+This module aims to providing the student with an in-depth understanding and command of one of
+the data analytics or data management techniques that are represented by the research groups of the
+faculty of DE. The subdiscipline involved (e.g. database management, machine learning, statistical data
+analysis, information theory, data acquisition, or big data technologies) changes from year to year and
+from hosting group to hosting group. The detailed structure and schedule depend on the specific
+demands and options of the hosting group. An Advanced Project module typically begins with a taught
+introduction to the concerned technology or method. This will lead the student to a level of
+competence with which he/she can insightfully apply the respective methods to practical, real-life
+tasks. Typically, the second half of the module is devoted to individual (or if indicated, group) projects
+in which a nontrivial data management/analysis task, given by the instructor, is worked out. The
+project outcome is a technical report (target size: 20 pages) together with a presentation to the Data
+Engineering program students and faculty.
+Recommended Knowledge
+Read the syllabus
+Usability and Relationship to other Modules
+The students can build on the project they worked on in the module MDE-DIS-02 Advanced Project 1.
+However, they are also free to choose another project topic with a different supervisor.
+Intended Learning Outcomes
+No Competence ILO
+1 Understand Understand current technical/scientific literature, and distinguish good
+from second-rate publications.
+76
+2 Write Write / configure computer programs / tools specifically for the subject
+area.
+3 Master Master relevant data pre/postprocessing routines specifically for the
+subject area.
+4 Design Design and schedule a complex DE project, including escape options, keep
+milestones/timelines.
+5 Hone Hone technical writing skills.
+6 Communicate Communicate technical results to a non-expert audience.
+Indicative Literature
+• The literature is provided individually to each student by each instructor for the respective
+advanced project.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Advanced Project 2 Project Report 20 pages 100 45% 1-6
+Module Achievements: None
+77
+Internship DE
+Module Name Internship DE
+Module Code 2025-MDE-INT-01
+Module ECTS 10
+Study Semester Mandatory status for:
+None
+Mandatory Elective status for:
+- 2025-DE-MSc 2
+- 2025-DE-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Internship 231
+Project Work 19
+Workload Hours 250 hours
+Module Components Number Type CP
+Internship DE MDE-INT-01 Internship 10
+Module Description
+Students can work on an internship in a company, government institution, or non-governmental
+organization to gain practical experience and to apply their knowledge and skills in data engineering in
+practice. A minimum of 231 working hours (corresponding to 6 weeks of full-time occupation, which
+can also be done part time stretched over a longer period starting from the 2nd semester) is required
+for the successful completion of this module, which then can replace two advanced projects of 5CP
+each. This gives students the opportunity to train, foster, and apply their acquired skills in data
+engineering in a professional setting. Students engage with the corporate world, learn how to cope
+and excel in a new environment. The internship content must be relevant to data engineering. Task
+specifications need to be appropriate for a master’s level student. The module coordinator, the student
+advisor and the Career Service Center will support students in finding suitable positions. The student
+needs to find a faculty member at Constructor University who agrees to be the academic supervisor
+prior to starting the internship. The module coordinator then decides on the eligibility of the internship
+to replace two advanced projects of 5CP each, prior to the start of the internship.
+The internship provides training and experiential learning opportunities for data engineering in a
+professional setting. It assists the students’ development of employer-valued skills, such as teamwork,
+communication, steadiness, and attention to detail. It exposes the students to the environment and
+performance expectations in the corporate world, may help prepare an application-oriented master
+thesis, and may make the entry into the professional job market easier.
+Recommended Knowledge
+Consider the internships offered and presented by companies in the module Current topics in Data
+Engineering. Consult with Career Services, the study program chair and/or your academic advisor on
+more options for internships and send applications.
+78
+Usability and Relationship to other Modules
+An internship with at least 6 weeks of full-time occupation, or part time, stretched over a
+correspondingly longer period, where data engineering skills are applied can replace two advanced
+project modules of 5CP each.
+Intended Learning Outcomes
+No Competence ILO
+1 Apply Apply data engineering concepts and tools in a real-world setting.
+2 Demonstrate Demonstrate professional work attitude and business etiquettes
+3 Collaborate Collaborate effectively in a professional environment.
+4 Demonstrate Demonstrate a solid work ethic and professional demeanor.
+5 Demonstrate Demonstrate commitment to ethical conduct and legal regulations.
+6 Improve Improve reporting and writing skills.
+7 Communicate Communicate results to a non-expert audience.
+Indicative Literature
+• The literature is provided individually to each student by each instructor for the respective
+internship.
+Entry Requirements
+Prerequisites Current Topics in Data Engineering
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Internship DE Project Report 30 pages 100 45% 1-7
+Module Achievements: None
+79
+Master Thesis DE
+Module Name Master Thesis DE
+Module Code 2025-MDE-THE-01
+Module ECTS 30
+Study Semester Mandatory status for:
+- 2025-DE-MSc 4
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Independent Study 750
+Workload Hours 750 hours
+Module Components Number Type CP
+Master Thesis MDE-THE-01 Thesis 30
+Master Thesis MDE-THE-01
+Module Description
+The aim of this module is to train students to motivate, design, carry out and document a research
+project in one of the areas represented by the research groups of the faculty of DE. Some familiarity
+with the requisite data engineering techniques will typically have been acquired in one of the
+preceding Advanced Projects (MDE-DIS-02 or MDE-DIS-03). The thesis topic is determined in mutual
+agreement with the module instructor. They may arise from the ongoing research in the instructor’s
+own research group, but it is also possible for a student to adopt a topic of his/her own choice provided
+the instructor agrees to supervise it.
+The thesis work comprises the full cycle of a scientific research endeavor: (i) identifying a relevant open
+research question, (ii) carrying out a literature survey to put the planned work in its context and relate
+it to the state of the art (SoA), (iii) formulate a concrete research objective, (iv) design a research plan
+including a statement of criteria to evaluate the success of the project, (v) carry out the plan (with the
+possibility to change the original plan when motivated), (vi) document the results, (vii) analyze the
+results with respect to the SoA, the original objective, and the success criteria, and (viii) document all
+of this in a thesis report.
+All of this work should be done with as much self-guidance as can be reasonably expected. The
+instructor will likely give substantial guidance for (i) and (iii), whereas the other aspects will be
+addressed with larger degrees of self-guidance. A research proposal document summarizing (i) – (iv) is
+expected as an interim result and milestone (target size: 10 pages). In the first weeks of the course, an
+intense taught tutorial on scientific working and writing is held. The subsequent weeks follow a
+seminar style where students present and discuss literature as well as their own results to date. The
+project consists of the proposal, a thesis report (target size: 30–60 pages, and an oral presentation at
+the end of the course.
+Usability and Relationship to other Modules
+80
+The master thesis can build on the advanced project courses MDE-DIS-02 Advanced Project 1 and MDE-
+DIS-03 Advanced Project 2 but the students are free to choose a different topic and a different
+supervisor for the master thesis.
+Recommended Knowledge
+- Read the Syllabus
+- Proficiency in the area of the chosen thesis topic.
+Intended Learning Outcomes
+No Competence ILO
+1 Understanding Understanding, at a professional level, of a circumscribed segment of the
+hosting group’s research area.
+2 Ability Ability to apply specific and selected DE techniques, as required for the
+project, at a professional level.
+3 General General professional skills.
+4 Designing Designing and carrying out the full cycle of a scientific research project in
+a professional manner.
+5 Formulating Formulating a research proposal such that that it could serve as a funding
+proposal.
+6 Writing Writing a research thesis such that it could be submitted to a scientific
+publication venue, or as a project report to a funding agency or industrial
+client.
+7 Presentation Presentation of project results for specialists and non-specialists.
+Entry Requirements
+Prerequisites Advanced Project 1
+Advanced Project 2
+Co-requisites None
+Additional Remarks
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Master Thesis Thesis 30-60
+pages
+75 45% 1-7
+Master Thesis Oral
+Examination
+20
+minutes
+(Defense)
+25 45% All,
+Mainly
+presentati
+on of
+project
+results
+learning
+outcomes
+Module Achievements: None
+81
+Communication & Presentation Skills for Executives
+Module Name Communication & Presentation Skills for
+Executives
+Module Code 2025-MDE-CAR-01
+Module ECTS 2.5
+Study Semester Mandatory status for:
+- 2025-DSSB-MSc 1
+- 2025-CSSE-MSc 1
+- 2025-DE-MSc 1
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-MBA-120-MA (MBA 120)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Seminar 17.5
+Independent Study 45
+Workload Hours 62.5 hours
+Module Components Number Type CP
+Communication & Presentation Skills for
+Executives
+MDE-CAR-01 Seminar 2.5
+Module Description
+An executive career in an international business environment requires excellent communication and
+presentation skills. Managers have to communicate effectively with a large variety of target audiences,
+often in different languages and with different cultural backgrounds. This is true for employees and/or
+direct reports, business partners as well as customers. The ability to present and communicate
+succinctly and confidently while being culturally aware and building rapport and trust with different
+audiences is crucial. In this interactive module, students are introduced to the basics of effective
+presentation and communication techniques. They learn how to present themselves, their business
+project, or academic work, with impact, tailoring both the content and their delivery style to different
+types of audiences.
+Recommended Knowledge
+- Analysis, Basic Calculus, and Linear Algebra
+- Read the Syllabus
+Usability and Relationship to other Modules
+This module is recommended to be taken together with the elective modules in the Bio-Informatics
+track.
+Intended Learning Outcomes
+No Competence ILO
+82
+1 Act Act as effective communicators – in both group and individual situations.
+2 Understand Understand interpersonal communication models and group dynamics in
+presentations.
+3 Enjoy Enjoy the process of presenting.
+4 Understand Understand the importance of building rapport and trust with audiences.
+5 Use Use presentation software (PowerPoint, Prezi) confidently and in a visually
+pleasant way.
+6 Learn Learn how to structure presentations in a coherent manner and develop
+captivating narratives.
+7 Work Work with different presentation formats (Ignite, Pecha Kucha, Pitching
+etc.).
+8 Understand Understand and apply the basics of logical reasoning in oratory
+(deductive/inductive).
+9 Develop Develop oratory and rhetorical skills drawing on Aristotle’s teaching of
+logos, ethos and pathos.
+10 Understand Understand and apply the basics of interpersonal communication (Johari
+Window, 4-Ears model etc.).
+11 Give Give and receive constructive feedback.
+12 Present Present themselves in different business situations.
+13 Collaborate Collaborate effective in intercultural teams.
+Indicative Literature
+• This course utilizes lecture formats, case studies and interactive presentations, discussions,
+role play and peer-to-peer coaching. The course will also use internet resources, videos, and
+home assignments to illustrate and practice specific communication aspects.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Communication &
+Presentation Skills for
+Executives
+Presentation 15
+minutes
+100 45% 1-13
+Module Achievements: None
+83
+Academic Writing Skills/Intercultural Training
+Module Name Academic Writing Skills/Intercultural Training
+Module Code 2025-MDE-CAR-02
+Module ECTS 2.5
+Study Semester Mandatory status for:
+- 2025-CSSE-MSc 2
+- 2025-DE-MSc 2
+Mandatory Elective status for:
+None
+Duration 1 Semester
+Program Affiliation 2025-DE-MSc (Data Engineering)
+Module Coordinator(s) Prof. Dr. Stefan Kettemann
+Forms of Learning and Teaching
+Lecture 17.5
+Independent Study 45
+Workload Hours 62.5 hours
+Module Components Number Type CP
+Academic Writing Skills/Intercultural
+Training
+MDE-CAR-02 Seminar 2.5
+Module Description
+The academically rigorous nature of graduate studies requires students to master academic writing
+skills and techniques. In this introductory course, students in DE master’s program will learn the
+foundations of academic writing at a graduate level, with special focus on writing academic essays,
+identifying organizational patterns of academic texts, and formulating arguments to produce cohesive
+and coherent academic papers. Through the process of drafting, continuous feedback and editing,
+students will improve their writing skills. This course will also help students develop their research skills
+by highlighting techniques of finding and evaluating sources, and utilizing citation and referencing
+styles. As graduate students, adhering to The Code of Academic Integrity is a requirement. Hence, this
+course will incorporate a session on scholarly and intellectual standards set by Constructor University.
+The second part of this course is a training seminar. It will give answers to frequently asked questions
+by students on the topics of working and living in Germany. Here the students will find information on
+employment and how to get access to the German labor market. The seminar also provides an
+overview of labor conditions in Germany, the multifaceted forms of employment, business cultures
+and useful tips and information for the job entry in a German company.
+Recommended Knowledge
+- Read the Syllabus.
+- Fraedrich, J. & Ferrell, O.C. (2014): Business Ethics: Ethical Decision Making & Cases. Cengage
+Learning.
+Usability and Relationship to other Modules
+For DE: Advanced Project 1, Advanced Project 2, Master thesis
+84
+Intended Learning Outcomes
+No Competence ILO
+1 Structure Structure their ideas to write clear summaries, coherent paragraphs and
+cohesive literature reviews.
+2 Write Write different segments of an academic paper employing writing styles
+that display advanced grammar and precise and concise language use.
+3 Successfully Successfully find and evaluate sources for research.
+4 Use Use citation and referencing styles applicable for their discipline.
+5 Avoid Avoid unintentional plagiarism and adhere to the code of academic
+integrity.
+6 Understand Understand labor conditions in Germany.
+7 Understand Understand the typical business cultures in German companies.
+Indicative Literature
+For DE: The literature is provided individually to each student by each instructor for the
+respective advanced project.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Academic Writing
+Skills/Intercultural Training
+Term Paper 10 pages 100 45% 1-7
+Module Achievements: None
+85
+Ethics and the Information Revolution
+Module Name Ethics and the Information Revolution
+Module Code 2025-MDSSB-EIR-01
+Module ECTS 2.5
+Study Semester Mandatory status for:
+- 2025-DE-MSc 3
+Mandatory Elective status for:
+- 2025-DSSB-MSc 3
+Duration 1 Semester
+Program Affiliation 2025-DSSB-MSc (Data Science for Society and
+Business)
+Module Coordinator(s) Prof. Dr. Hilke Brockmann
+Forms of Learning and Teaching
+Seminar 17.5
+Independent Study 45
+Workload Hours 62.5 hours
+Module Components Number Type CP
+Ethics and the Information Revolution MDSSB-EIR-01 Seminar 2.5
+Module Description
+Many data specialists claim that we are at the cusp of an information revolution. Based on inventions
+dating back to WWII, IT innovations have re-organized our society around one “big metadata
+computer” that is permanently computing data and associating metadata about everything we do.
+Digital technologies also have the potential to disrupt the ethical standards and rules of our society. In
+this module, we discuss whether we have to forfeit privacy in times of big data, if machines
+compromise our identity, and if shared data enables institutions to abuse their power and undermine
+the civil society?
+The module pursues three goals. 1. Participants will immerse themselves and learn about core ethical
+theories. 2. They will integrate this theoretical knowledge and develop a “Big Data Ethics,” which they
+3. will put into practice. For the second and third purposes, in-classroom discussions and interactions
+are indispensable for identifying possible dilemmas and conflict of interests and for balancing
+contradictions to derive practical solutions and policy advice.
+Recommended Knowledge
+- Read the Syllabus
+- Binns (2018) Fairness in Machine Learning: Lessons from Political Philosophy. Proceedings of Machine
+Learning Research 81:1-11.
+Usability and Relationship to other Modules
+It is one of the three Career modules (IT Law, Language III, and Ethics and the Information Revolution)
+that can be chosen for replacement by the internship. Students need to replace 10 CP for the
+internship.
+86
+Intended Learning Outcomes
+No Competence ILO
+1 Report Report on major ethical theories relevant to digital technologies.
+2 Integrate Integrate different ethical standpoints and arguments to address concrete
+societal problems.
+3 Assess Assess the societal and ethical implications of digitization.
+4 Deal Deal with legal aspects of ethics by applying means to prevent and deal
+with violations of privacy and transparency.
+5 Apply Apply actions to contribute to the transition to a more just and trustworthy
+digital transformation as a part of one’s job.
+6 Implement Implement justice and social equality as dimensions of ethics and
+sustainability.
+Indicative Literature
+• Binns (2018) Fairness in Machine Learning: Lessons from Political Philosophy. Proceedings of
+Machine Learning Research 81:1-11.
+Entry Requirements
+Prerequisites None
+Co-requisites None
+Additional Remarks None
+Assessment and Completion
+Components Examination
+Type
+Duration/
+Length
+Weight
+(%)
+Minimum ILOs
+Ethics and the Information
+Revolution
+Term Paper 20 pages 100 45% 1-6
+Module Achievements: None
+87
+Language Skills
+The description of the language module is provided in a separate document, the “Language Module
+Handbook” that can be accessed from here: https://constructor.university/student-life/language-
+community-center/learning-languages
+88
+5 Modules
+5.1 Intended Learning Outcomes Assessment-Matrix
+Data Engineering (M.Sc.)
+Big Data Challenge
+IT Law
+Data Security and Privacy
+Data Analytics
+Data Management and
+Databases
+Python Programming for Data
+Engineering
+Cloud Computing
+Data Pipeline Engineering
+Machine Learning
+Data Warehousing: Concepts
+and Technologies
+Image Processing for Data
+Data Acquisition
+Technologies and Sensor
+Networks Principles of Statistical
+Modeling
+Network Theory
+Advanced Data bases
+Geoinformatics
+Management and Analysis of
+Biological and Medical Data
+Data Mining
+Data Analytics in Supply
+Chain Management
+Modeling and Control of
+Dynamical Systems
+Calculus and Linear Algebra
+for Graduate Students
+Current Topics in Data
+Engineering
+AdvProj1
+AdvProj2
+Internship DE
+Master Thesis
+German
+Communication &
+Prsentation Skills f. Ex.
+Ethics and the Information
+Revolution
+Academic Writing
+Skills/Intercultural Training
+Semester 1 2 3 1 1 1 2 2 2 3 3 3 2 1 or 3 2 1 or 3 1 or 3 2 3 2 1 1 2 3 2 and 3 4 1 1 3 2
+Mandatory/ Mandtory elective me m m m m m m m me m m me me me me me me me me me me m m m m m m m m m
+Credits 5 2.5 2.5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 10 30 5 5 5 2.5
+Competencies*
+Program Learning Outcomes A E P S
+critically assess and creatively apply
+technological possibilities and innovations
+driven by big data
+x x x x x x x x x x x x x x x x x x x x x x x x x x
+set up and use databases to efficiently and
+securely manage and access large amounts
+of data
+x x x x x x x x x x x x x x x x x x x
+apply statistical concepts and use statistical
+models in the context of real-life data
+analytics
+x x x x x x x x x x x x x x x
+use, adapt and improve visualization
+techniques to support data-based decision
+making
+x x x x x x x x x x x x x
+Understand cloud computing concepts, use
+major cloud platforms and implement
+cloud solutions
+x x x x x x x x x x x x x x
+Understand data pipeline concepts, and
+build and manage data pipelines x x x x x x x x x x
+Understand the concepts of data
+warehousing and apply its tools, such as
+online analytical processing (OLAP), data
+cubes, data marts and data lakes
+x x x x x x x x x x x
+design, implement and exploit various
+representations of data for classification
+and regression including supervised
+machine learning methods and core ideas
+of deep learning
+x x x x x x x x x x x x x x x
+apply and critically assess data acquisition
+methods and analytical techniques in real
+life situations, organizations and industries x x x x x x x x x x x x x x x x x x x x x x
+independently investigate complex
+problems and undertake scientific or
+applied research into a specialist area
+utilizing appropriate methods, also taking
+methods and insights of other disciplines
+into account
+x x x x x x x x x x x x x x x x x x x x
+professionally communicate their
+conclusions and recommendations, the
+underlying information and their reasons
+to specialists and non-specialists both
+clearly and unambiguously on the basis of
+the state of research and application
+x x x x x x x x x x x x x x x x x x x x x
+assess and communicate social, scientific
+and ethical insights that also derive from
+the application of their knowledge and
+their decisions
+x x x x x x x x x x x x x x x x x
+engage ethically with academic,
+professional and wider communities and
+actively contribute to a sustainable future
+x x
+x x x x x x x x x
+take responsibility for their own learning,
+personal development and role in society,
+evaluating critical feedback and self-
+analysis
+x x
+x x x x x x x x x x x x
+take on lead responsibility in a diverse
+team
+x x
+x x x x x x x x x
+adhere to and defend ethical, scientific
+and professional standards
+x
+x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x
+Assessment Type
+Written Examination x x x x x x x x x x x
+Term paper x x x x
+Essay
+Project Report x x x x x x x x x x
+Poster presentation x
+Laboratory Report x
+Program code
+Oral Examination x
+Presentation x
+Practical Assessment x x x x
+Project Assessment
+Portfolio Assessment
+Thesis x
+Various x
+Module achievements
+*Competencies: A-scientific/academic proficiency; E-competence for qualified employment; P-development of personality; S-competence for engagement in society

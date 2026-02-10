@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "course_title": "Data Engineering MSc",
+    "chapter_title": "Program Handbook",
+    "domain": "data engineering",
+    "language": "en",
+    "compression_notes": "Merged from 4 chunks. Total: 15 unique concepts, 17 meaning units, 4 skeleton cards."
+  },
+  "meaning_units": [
+    {
+      "unit_id": "U1",
+      "type": "definition",
+      "source_span": {
+        "start_char": 0,
+        "end_char": 200
+      },
+      "summary": "Subject-specific Examination Regulations for Data Engineering.",
+      "key_terms": [
+        "Examination Regulations",
+        "Data Engineering",
+        "MSc"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Examination Regulations := defined by program handbook.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U2",
+      "type": "definition",
+      "source_span": {
+        "start_char": 200,
+        "end_char": 400
+      },
+      "summary": "Graduation requirements for MSc in Data Engineering.",
+      "key_terms": [
+        "MSc",
+        "graduation",
+        "120 ECTS"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C2"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Graduation := requires 120 ECTS credits.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U3",
+      "type": "claim_theorem",
+      "source_span": {
+        "start_char": 400,
+        "end_char": 600
+      },
+      "summary": "Educational aims of the Data Engineering program.",
+      "key_terms": [
+        "educational aims",
+        "data engineering",
+        "skills"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C3"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Educational Aims := in-depth understanding of data engineering.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U4",
+      "type": "method_procedure",
+      "source_span": {
+        "start_char": 600,
+        "end_char": 800
+      },
+      "summary": "Overview of the curriculum structure.",
+      "key_terms": [
+        "curriculum",
+        "modules",
+        "credit points"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C4"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Curriculum Structure := composed of Core, Elective, Discovery, Career areas.",
+        "conditions": [],
+        "steps": [
+          "Core Area (45CP)",
+          "Elective Area (25CP)",
+          "Discovery Area (15CP)",
+          "Career Area (10CP)",
+          "Master Thesis (30CP)"
+        ],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U5",
+      "type": "example",
+      "source_span": {
+        "start_char": 800,
+        "end_char": 1000
+      },
+      "summary": "Example of a module in the Core Area.",
+      "key_terms": [
+        "Data Management",
+        "Databases",
+        "module"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C5"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Module: Data Management and Databases := covers database design and optimization.",
+        "conditions": [],
+        "steps": [],
+        "example": "Module Code: 2025-MDE-CO-07",
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U6",
+      "type": "definition",
+      "source_span": {
+        "start_char": 0,
+        "end_char": 25
+      },
+      "summary": "Data Pipeline Engineering module.",
+      "key_terms": [
+        "Data Pipeline Engineering",
+        "ETL",
+        "Apache Airflow",
+        "Terraform",
+        "Nomad"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Data Pipeline Engineering := module on data pipeline design and management.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U7",
+      "type": "method_procedure",
+      "source_span": {
+        "start_char": 25,
+        "end_char": 100
+      },
+      "summary": "Overview of ETL processes.",
+      "key_terms": [
+        "Extract",
+        "Transform",
+        "Load"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C2"
+      ],
+      "relations": [
+        {
+          "rel": "prerequisite",
+          "from": "C1",
+          "to": "C2",
+          "evidence": "Overview of ETL processes",
+          "confidence": 1.0
+        }
+      ],
+      "seeds": {
+        "rule_or_core": "ETL := Extract, Transform, Load processes in data pipelines.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U8",
+      "type": "claim_theorem",
+      "source_span": {
+        "start_char": 100,
+        "end_char": 200
+      },
+      "summary": "Importance of data pipelines in data engineering.",
+      "key_terms": [
+        "data pipelines",
+        "importance"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C3"
+      ],
+      "relations": [
+        {
+          "rel": "prerequisite",
+          "from": "C2",
+          "to": "C3",
+          "evidence": "Explain the importance and components of data pipelines",
+          "confidence": 1.0
+        }
+      ],
+      "seeds": {
+        "rule_or_core": "Data pipelines are crucial for efficient data flow.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U9",
+      "type": "example",
+      "source_span": {
+        "start_char": 200,
+        "end_char": 300
+      },
+      "summary": "Example of using Apache Airflow.",
+      "key_terms": [
+        "Apache Airflow",
+        "DAG"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C4"
+      ],
+      "relations": [
+        {
+          "rel": "example_of",
+          "from": "U4",
+          "to": "C4",
+          "evidence": "Setting up and configuring Airflow",
+          "confidence": 1.0
+        }
+      ],
+      "seeds": {
+        "rule_or_core": "Setup Apache Airflow for workflow automation.",
+        "conditions": [],
+        "steps": [],
+        "example": "Create and manage DAGs.",
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U10",
+      "type": "warning_common_mistake",
+      "source_span": {
+        "start_char": 300,
+        "end_char": 400
+      },
+      "summary": "Common mistakes in data pipeline management.",
+      "key_terms": [
+        "mistakes",
+        "data pipeline"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C5"
+      ],
+      "relations": [
+        {
+          "rel": "contrasts_with",
+          "from": "C5",
+          "to": "C6",
+          "evidence": "Common mistakes in data pipeline management",
+          "confidence": 1.0
+        }
+      ],
+      "seeds": {
+        "rule_or_core": "Avoid common mistakes in data pipeline management.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": "Ensure proper monitoring and troubleshooting."
+      }
+    },
+    {
+      "unit_id": "U11",
+      "type": "definition",
+      "source_span": {
+        "start_char": 0,
+        "end_char": 19
+      },
+      "summary": "Module Data Mining",
+      "key_terms": [
+        "Data Mining",
+        "MDE-BSC-01",
+        "ECTS 5"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Data Mining := practical applications of algorithms for data patterns.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U12",
+      "type": "method_procedure",
+      "source_span": {
+        "start_char": 19,
+        "end_char": 1000
+      },
+      "summary": "Data Mining process",
+      "key_terms": [
+        "data selection",
+        "cleaning",
+        "coding",
+        "statistical techniques",
+        "machine learning"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [
+        {
+          "rel": "prerequisite",
+          "from": "C1",
+          "to": "C2",
+          "evidence": "builds on core module data analytics",
+          "confidence": 1.0
+        }
+      ],
+      "seeds": {
+        "rule_or_core": "Data Mining process := selection, cleaning, coding, analysis.",
+        "conditions": [
+          "Requires knowledge of data analytics software."
+        ],
+        "steps": [
+          "Select data",
+          "Clean data",
+          "Code data",
+          "Analyze patterns"
+        ],
+        "example": null,
+        "mistake_and_fix": "Common mistake: Confusing data mining with data analysis."
+      }
+    },
+    {
+      "unit_id": "U13",
+      "type": "claim_theorem",
+      "source_span": {
+        "start_char": 1000,
+        "end_char": 2000
+      },
+      "summary": "Intended Learning Outcomes for Data Mining",
+      "key_terms": [
+        "Implement",
+        "Evaluate",
+        "Experience",
+        "Acquire skills"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "If you implement data mining methods, then you gain practical skills.",
+        "conditions": [
+          "Requires prior knowledge of data analytics."
+        ],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U14",
+      "type": "warning_common_mistake",
+      "source_span": {
+        "start_char": 2000,
+        "end_char": 3000
+      },
+      "summary": "Common mistakes in Data Mining",
+      "key_terms": [
+        "Confusion",
+        "Data Mining vs Data Analysis"
+      ],
+      "symbols": [],
+      "concept_refs": [
+        "C1"
+      ],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Confusing data mining with data analysis is a common mistake.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": "Clarify definitions and applications of each."
+      }
+    },
+    {
+      "unit_id": "U15",
+      "type": "definition",
+      "source_span": {
+        "start_char": 0,
+        "end_char": 20
+      },
+      "summary": "Intended Learning Outcomes Assessment-Matrix",
+      "key_terms": [
+        "learning outcomes",
+        "assessment",
+        "matrix"
+      ],
+      "symbols": [],
+      "concept_refs": [],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Learning Outcomes Assessment-Matrix := structured overview of competencies and assessments.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U16",
+      "type": "claim_theorem",
+      "source_span": {
+        "start_char": 20,
+        "end_char": 300
+      },
+      "summary": "Competencies and Program Learning Outcomes",
+      "key_terms": [
+        "competencies",
+        "program learning outcomes"
+      ],
+      "symbols": [],
+      "concept_refs": [],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Competencies := skills and knowledge expected from graduates.",
+        "conditions": [],
+        "steps": [],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    },
+    {
+      "unit_id": "U17",
+      "type": "method_procedure",
+      "source_span": {
+        "start_char": 300,
+        "end_char": 600
+      },
+      "summary": "Assessment Types",
+      "key_terms": [
+        "assessment types",
+        "evaluation methods"
+      ],
+      "symbols": [],
+      "concept_refs": [],
+      "relations": [],
+      "seeds": {
+        "rule_or_core": "Assessment Types := various methods to evaluate competencies.",
+        "conditions": [],
+        "steps": [
+          "Written Examination",
+          "Term paper",
+          "Project Report"
+        ],
+        "example": null,
+        "mistake_and_fix": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "concept_id": "C1",
+      "name": "Examination Regulations",
+      "aliases": [],
+      "short_def": "Regulations governing examinations for Data Engineering.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C2",
+      "name": "Graduation Requirements",
+      "aliases": [],
+      "short_def": "Requirements to graduate with MSc in Data Engineering.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C3",
+      "name": "Educational Aims",
+      "aliases": [],
+      "short_def": "Aims to provide understanding and skills in data engineering.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C4",
+      "name": "Curriculum Structure",
+      "aliases": [],
+      "short_def": "Structure of the Data Engineering program curriculum.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C5",
+      "name": "Data Management and Databases",
+      "aliases": [],
+      "short_def": "Module focusing on database design and optimization.",
+      "tags": [
+        "module"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C6",
+      "name": "Data Pipeline Engineering",
+      "aliases": [],
+      "short_def": "Module on data pipeline design and management.",
+      "tags": [
+        "module"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C7",
+      "name": "ETL",
+      "aliases": [],
+      "short_def": "Extract, Transform, Load processes.",
+      "tags": [
+        "process"
+      ],
+      "prerequisites": [
+        "C1"
+      ],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C8",
+      "name": "Importance of Data Pipelines",
+      "aliases": [],
+      "short_def": "Significance of data pipelines in engineering.",
+      "tags": [
+        "importance"
+      ],
+      "prerequisites": [
+        "C2"
+      ],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C9",
+      "name": "Apache Airflow",
+      "aliases": [],
+      "short_def": "Tool for workflow automation.",
+      "tags": [
+        "tool"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C10",
+      "name": "Common Mistakes in Data Pipeline Management",
+      "aliases": [],
+      "short_def": "Frequent errors in managing data pipelines.",
+      "tags": [
+        "mistake"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C11",
+      "name": "Data Mining",
+      "aliases": [],
+      "short_def": "Practical applications of algorithms for data pattern detection.",
+      "tags": [
+        "concept",
+        "method"
+      ],
+      "prerequisites": [],
+      "contrasts": [
+        "C2"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C12",
+      "name": "Data Analytics",
+      "aliases": [],
+      "short_def": "Core module for data analysis techniques.",
+      "tags": [
+        "concept",
+        "method"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C13",
+      "name": "Intended Learning Outcomes",
+      "aliases": [],
+      "short_def": "Expected skills and knowledge from the program.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C14",
+      "name": "Competencies",
+      "aliases": [],
+      "short_def": "Skills and knowledge expected from graduates.",
+      "tags": [
+        "concept"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    },
+    {
+      "concept_id": "C15",
+      "name": "Assessment Types",
+      "aliases": [],
+      "short_def": "Methods to evaluate competencies.",
+      "tags": [
+        "method"
+      ],
+      "prerequisites": [],
+      "contrasts": [],
+      "confidence": 1.0
+    }
+  ],
+  "relations_graph": [
+    {
+      "rel_id": "R1",
+      "type": "prerequisite",
+      "from": "C1",
+      "to": "C2",
+      "label": "ETL processes depend on Data Pipeline Engineering",
+      "evidence": "Overview of ETL processes",
+      "confidence": 1.0
+    },
+    {
+      "rel_id": "R2",
+      "type": "prerequisite",
+      "from": "C2",
+      "to": "C3",
+      "label": "Importance of data pipelines depends on ETL",
+      "evidence": "Explain the importance and components of data pipelines",
+      "confidence": 1.0
+    },
+    {
+      "rel_id": "R3",
+      "type": "example_of",
+      "from": "U4",
+      "to": "C4",
+      "label": "Example of using Apache Airflow",
+      "evidence": "Setting up and configuring Airflow",
+      "confidence": 1.0
+    },
+    {
+      "rel_id": "R4",
+      "type": "contrasts_with",
+      "from": "C5",
+      "to": "C6",
+      "label": "Common mistakes vs. best practices",
+      "evidence": "Common mistakes in data pipeline management",
+      "confidence": 1.0
+    },
+    {
+      "rel_id": "R5",
+      "type": "prerequisite",
+      "from": "C1",
+      "to": "C2",
+      "label": "builds on",
+      "evidence": "builds on core module data analytics",
+      "confidence": 1.0
+    }
+  ],
+  "skeleton_cards": [
+    {
+      "card_id": "S1",
+      "topic": "Data Engineering Program Overview",
+      "blocks": [
+        {
+          "block_id": "B1",
+          "title": "Examination Regulations",
+          "anchors": [
+            "Examination Regulations",
+            "Data Engineering"
+          ],
+          "unit_refs": [
+            "U1"
+          ],
+          "concept_refs": [
+            "C1"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Examination Regulations := defined by program handbook.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B2",
+          "title": "Graduation Requirements",
+          "anchors": [
+            "MSc",
+            "120 ECTS"
+          ],
+          "unit_refs": [
+            "U2"
+          ],
+          "concept_refs": [
+            "C2"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Graduation := requires 120 ECTS credits.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B3",
+          "title": "Educational Aims",
+          "anchors": [
+            "in-depth understanding",
+            "data engineering"
+          ],
+          "unit_refs": [
+            "U3"
+          ],
+          "concept_refs": [
+            "C3"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Educational Aims := in-depth understanding of data engineering.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B4",
+          "title": "Curriculum Structure",
+          "anchors": [
+            "Core Area",
+            "Elective Area"
+          ],
+          "unit_refs": [
+            "U4"
+          ],
+          "concept_refs": [
+            "C4"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Curriculum Structure := composed of Core, Elective, Discovery, Career areas.",
+            "procedure_steps": [
+              "Core Area (45CP)",
+              "Elective Area (25CP)",
+              "Discovery Area (15CP)",
+              "Career Area (10CP)",
+              "Master Thesis (30CP)"
+            ],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B5",
+          "title": "Example Module",
+          "anchors": [
+            "Data Management",
+            "Databases"
+          ],
+          "unit_refs": [
+            "U5"
+          ],
+          "concept_refs": [
+            "C5"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Module: Data Management and Databases := covers database design and optimization.",
+            "procedure_steps": [],
+            "one_strong_example": "Module Code: 2025-MDE-CO-07",
+            "one_common_mistake": null
+          }
+        }
+      ]
+    },
+    {
+      "card_id": "S2",
+      "topic": "Data Pipeline Engineering",
+      "blocks": [
+        {
+          "block_id": "B1",
+          "title": "Overview",
+          "anchors": [
+            "Data Pipeline Engineering",
+            "ETL",
+            "Importance"
+          ],
+          "unit_refs": [
+            "U1",
+            "U2",
+            "U3"
+          ],
+          "concept_refs": [
+            "C1",
+            "C2",
+            "C3"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Data Pipeline Engineering := module on data pipeline design and management.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": "Ensure proper monitoring and troubleshooting."
+          }
+        },
+        {
+          "block_id": "B2",
+          "title": "Tools",
+          "anchors": [
+            "Apache Airflow",
+            "Terraform",
+            "Nomad"
+          ],
+          "unit_refs": [
+            "U4"
+          ],
+          "concept_refs": [
+            "C4"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": null,
+            "procedure_steps": [],
+            "one_strong_example": "Create and manage DAGs.",
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B3",
+          "title": "Common Mistakes",
+          "anchors": [
+            "Mistakes",
+            "Best Practices"
+          ],
+          "unit_refs": [
+            "U5"
+          ],
+          "concept_refs": [
+            "C5"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": null,
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": "Avoid common mistakes in data pipeline management."
+          }
+        }
+      ]
+    },
+    {
+      "card_id": "S3",
+      "topic": "Data Mining Module",
+      "blocks": [
+        {
+          "block_id": "B1",
+          "title": "Module Overview",
+          "anchors": [
+            "Data Mining",
+            "MDE-BSC-01",
+            "ECTS 5"
+          ],
+          "unit_refs": [
+            "U1"
+          ],
+          "concept_refs": [
+            "C1"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Data Mining := practical applications of algorithms for data patterns.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": "Confusing data mining with data analysis."
+          }
+        },
+        {
+          "block_id": "B2",
+          "title": "Learning Outcomes",
+          "anchors": [
+            "Implement",
+            "Evaluate",
+            "Experience"
+          ],
+          "unit_refs": [
+            "U3"
+          ],
+          "concept_refs": [
+            "C1"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "If you implement data mining methods, then you gain practical skills.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B3",
+          "title": "Common Mistakes",
+          "anchors": [
+            "Confusion",
+            "Data Mining vs Data Analysis"
+          ],
+          "unit_refs": [
+            "U4"
+          ],
+          "concept_refs": [
+            "C1"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Confusing data mining with data analysis is a common mistake.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": "Clarify definitions and applications of each."
+          }
+        }
+      ]
+    },
+    {
+      "card_id": "S4",
+      "topic": "Program Learning Outcomes",
+      "blocks": [
+        {
+          "block_id": "B1",
+          "title": "Learning Outcomes",
+          "anchors": [
+            "skills",
+            "knowledge",
+            "evaluation"
+          ],
+          "unit_refs": [
+            "U1",
+            "U2"
+          ],
+          "concept_refs": [
+            "C1",
+            "C2"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Learning Outcomes Assessment-Matrix := structured overview of competencies and assessments.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B2",
+          "title": "Competencies",
+          "anchors": [
+            "scientific proficiency",
+            "employment competence"
+          ],
+          "unit_refs": [
+            "U2"
+          ],
+          "concept_refs": [
+            "C2"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Competencies := skills and knowledge expected from graduates.",
+            "procedure_steps": [],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        },
+        {
+          "block_id": "B3",
+          "title": "Assessment Methods",
+          "anchors": [
+            "written exam",
+            "project report"
+          ],
+          "unit_refs": [
+            "U3"
+          ],
+          "concept_refs": [
+            "C3"
+          ],
+          "mini_links": [],
+          "seed_pack": {
+            "rule_plus_conditions": "Assessment Types := various methods to evaluate competencies.",
+            "procedure_steps": [
+              "Written Examination",
+              "Term paper",
+              "Project Report"
+            ],
+            "one_strong_example": null,
+            "one_common_mistake": null
+          }
+        }
+      ]
+    }
+  ],
+  "quality_checks": {
+    "shatalov_constraint_ok": true,
+    "num_blocks_per_card": [
+      5,
+      3,
+      3,
+      3
+    ],
+    "missing_prereqs_warnings": [],
+    "knowledge_islands": [],
+    "top_contrasts": [],
+    "coverage_estimate": {
+      "major_concepts": 15,
+      "major_methods": 4,
+      "major_mistakes": 2
+    }
+  }
+}
