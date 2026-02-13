@@ -10,7 +10,15 @@ import os
 import sys
 import time
 from pathlib import Path
+from typing import List, Optional
 from dotenv import load_dotenv
+
+# Try importing pypdf for PDF support
+try:
+    from pypdf import PdfReader
+    HAS_PYPDF = True
+except ImportError:
+    HAS_PYPDF = False
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -33,21 +41,59 @@ def main():
     parser.add_argument("--skeleton-only", action="store_true", help="Generate skeleton card only (minimal view)")
     parser.add_argument("--max-chunk-tokens", type=int, default=12000,
                         help="Max tokens per chunk for large documents (default: 12000)")
+    parser.add_argument("--limit-pages", type=int, help="Limit number of pages to process (PDF only)")
     
     args = parser.parse_args()
     
     # Load environment variables
     load_dotenv("config/.env")
     
-    # Read input
+    # 1. Read Input
     input_path = Path(args.input)
     if not input_path.exists():
         print(f"❌ Input file not found: {input_path}")
-        sys.exit(1)
-    
+        return
+
     print(f"📖 Reading input from: {input_path}")
-    with open(input_path, "r", encoding="utf-8") as f:
-        text = f.read()
+    
+    text = ""
+    if input_path.suffix.lower() == ".pdf":
+        if not HAS_PYPDF:
+            print("❌ Error: pypdf is not installed. Install it with: pip install pypdf")
+            return
+        
+        try:
+            reader = PdfReader(input_path)
+            total_pages = len(reader.pages)
+            limit = args.limit_pages if args.limit_pages else total_pages
+            
+            print(f"   PDF has {total_pages} pages. Extracting text from first {limit} pages...")
+            
+            pdf_text = []
+            for i in range(min(limit, total_pages)):
+                page_text = reader.pages[i].extract_text()
+                if page_text:
+                    pdf_text.append(page_text)
+            
+            text = "\n\n".join(pdf_text)
+            print(f"   ✅ Extracted {len(text)} characters from PDF.")
+            
+        except Exception as e:
+            print(f"❌ Error reading PDF: {e}")
+            return
+    else:
+        # Assume text file
+        try:
+            with open(input_path, "r", encoding="utf-8") as f:
+                text = f.read()
+        except UnicodeDecodeError:
+            # Fallback to latin-1 if utf-8 fails
+            with open(input_path, "r", encoding="latin-1") as f:
+                text = f.read()
+
+    if not text.strip():
+        print("❌ Error: Input file is empty or text could not be extracted.")
+        return
     
     word_count = len(text.split())
     token_est = estimate_tokens(text)
