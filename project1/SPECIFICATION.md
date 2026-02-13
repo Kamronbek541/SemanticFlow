@@ -1,4 +1,3 @@
-```
 # Technical Specification: Knowledge Extraction & Compression System
 
 > **For AI Agents:** This document serves as the "DNA" of the system. Use it to understand, replicate, or extend the extraction logic without needing to re-read the entire codebase.
@@ -116,7 +115,3 @@ To scale this system, an AI should focus on:
 1.  **Multi-File Synthesis**: Combining JSONs from 10 chapters into a super-graph (Course Graph).
 2.  **Socratic Tutor**: Using the `skeleton_cards` to quiz the user ("I see anchor X, what does it mean?").
 3.  **Visual Renderer**: Converting the JSON graph into Mermaid.js or Graphviz diagrams automatically.
-```
-
-как тебе этот
-specification for the code
